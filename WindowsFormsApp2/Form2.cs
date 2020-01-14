@@ -105,10 +105,14 @@ namespace WindowsFormsApp2
 
             //Thongtinchitiet b = new Thongtinchitiet(this.k);
             //b.truyenData = new Thongtinchitiet.Truyenchocha(UpdateData);
-            Thongtinchitiet a = new Thongtinchitiet(this.k);
-            a.truyenData = new Thongtinchitiet.Truyenchocha(UpdateData);
+
+            Thongtinchitiet b;
+            b = new Thongtinchitiet(this.k);
+            b.truyenData = new Thongtinchitiet.Truyenchocha(UpdateData);
+            b.ShowDialog();
+            b.Close();
             //Form3 a = new Form3(this.k);
-            a.ShowDialog();
+            
            
 
         }
@@ -165,6 +169,7 @@ namespace WindowsFormsApp2
             a.truyenData = new Thongtinchitiet_dele.Truyenchocha(UpdateData);
             //Form3 a = new Form3(this.k);
             a.ShowDialog();
+            a.Close();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -229,8 +234,10 @@ namespace WindowsFormsApp2
             }
             Thongtinchitiet_add a = new Thongtinchitiet_add(this.k);
             a.truyenData = new Thongtinchitiet_add.Truyenchocha(UpdateData);
+            CausesValidation = false;
             //Form3 a = new Form3(this.k);
             a.ShowDialog();
+            a.Close();
         }
     }
 }

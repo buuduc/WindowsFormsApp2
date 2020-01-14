@@ -39,9 +39,7 @@ namespace WindowsFormsApp2
             this.hinhanhTableAdapter.Update(this.dsnv_dbDataSet);
             // 
             truyenData();
-            truyenData = null;
-
-         
+                          
             //Thongtinchitiet a = new Thongtinchitiet(this.k);
             //a.ShowDialog();
             
