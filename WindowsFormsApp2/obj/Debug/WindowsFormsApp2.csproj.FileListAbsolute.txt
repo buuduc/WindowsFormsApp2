@@ -182,9 +182,11 @@ C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\ru\DevExpress.Pd
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe.licenses
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CopyComplete
-C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form3.resources
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Thongtinchitiet.resources
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Thongtinchitiet_dele.resources
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Thongtinchitiet_add.resources
+C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ThemBang.resources
+C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.GUIchinh.resources
+C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.BangTuyChinh.resources

@@ -93,17 +93,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="GUIchinh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="GUIchinh.Designer.cs">
+      <DependentUpon>GUIchinh.cs</DependentUpon>
     </Compile>
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemBang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemBang.Designer.cs">
+      <DependentUpon>ThemBang.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -125,14 +131,23 @@
     <Compile Include="Thongtinchitiet.Designer.cs">
       <DependentUpon>Thongtinchitiet.cs</DependentUpon>
     </Compile>
+    <Compile Include="BangTuyChinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BangTuyChinh.Designer.cs">
+      <DependentUpon>BangTuyChinh.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="GUIchinh.resx">
+      <DependentUpon>GUIchinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemBang.resx">
+      <DependentUpon>ThemBang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -152,6 +167,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Thongtinchitiet.resx">
       <DependentUpon>Thongtinchitiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BangTuyChinh.resx">
+      <DependentUpon>BangTuyChinh.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="dsnv_dbDataSet.xsc">
       <DependentUpon>dsnv_dbDataSet.xsd</DependentUpon>

@@ -18,7 +18,7 @@ namespace WindowsFormsApp2
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Form2 a = new Form2();
+            GUIchinh a = new GUIchinh();
             
             Application.Run(a);
             

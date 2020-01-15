@@ -14,7 +14,7 @@ namespace WindowsFormsApp2
     {
         public int k;
         public String diachi;
-        public static Form2 a;
+        public static GUIchinh a;
         public Thongtinchitiet_dele(int k)
         {
             this.k = k;
