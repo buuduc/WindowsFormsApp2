@@ -3960,7 +3960,7 @@
       <summary>
         <para>Specifies the color used to fill in the geometry.</para>
       </summary>
-      <value>A <see cref="T:System.Nullable`1"/>&lt;<see cref="T:System.Drawing.Color"/>,&gt; value that represents a color.</value>
+      <value>A Nullable&lt;<see cref="T:System.Drawing.Color"/>&gt; value that represents a color.</value>
     </member>
     <member name="P:DevExpress.Diagram.Core.Shapes.Start.IsNewShape">
       <summary>

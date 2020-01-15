@@ -16,6 +16,10 @@
 
 namespace WindowsFormsApp2.dsnv_dbDataSetTableAdapters
 {
+    partial class DanhsachnhanvienTableAdapter
+    {
+    }
+
     partial class ThongtincongviecTableAdapter
     {
     }

@@ -1087,9 +1087,9 @@
     </member>
     <member name="P:DevExpress.XtraRichEdit.RichEditControl.DocumentViewDirection">
       <summary>
-        <para></para>
+        <para>Specifies the page order in Print Layout view and in Print Preview.</para>
       </summary>
-      <value></value>
+      <value>One of the DocumentViewDirection enumeration values indicating the page order.</value>
     </member>
     <member name="P:DevExpress.XtraRichEdit.RichEditControl.DpiX">
       <summary>

@@ -13180,7 +13180,7 @@
       <summary>
         <para>Returns the dictionary listing the data connections by their names.</para>
       </summary>
-      <returns>A <see cref="T:System.Collections.Generic.Dictionary`2"/>&lt;<see cref="T:System.String"/>,<see cref="T:System.String"/>,&gt; object containing connection names and their descriptions.</returns>
+      <returns>A Dictionary&lt;<see cref="T:System.String"/>,<see cref="T:System.String"/>&gt; object containing connection names and their descriptions.</returns>
     </member>
     <member name="M:DevExpress.DataAccess.Web.IDataSourceWizardConnectionStringsProvider.GetDataConnectionParameters(System.String)">
       <summary>

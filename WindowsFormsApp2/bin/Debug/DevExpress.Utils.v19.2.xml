@@ -3519,9 +3519,9 @@ The DefaultBoolean.Default value is equivalent to DefaultBoolean.True if the sta
     </member>
     <member name="M:DevExpress.Utils.DragDrop.DragDropBehaviorProperties.CreateEventsStorage">
       <summary>
-        <para></para>
+        <para>Returns a new <see cref="T:DevExpress.Utils.DragDrop.DragDropEvents"/> class instance. For internal use.</para>
       </summary>
-      <returns></returns>
+      <returns>For internal use.</returns>
     </member>
     <member name="P:DevExpress.Utils.DragDrop.DragDropBehaviorProperties.Events">
       <summary>
@@ -3531,9 +3531,9 @@ The DefaultBoolean.Default value is equivalent to DefaultBoolean.True if the sta
     </member>
     <member name="M:DevExpress.Utils.DragDrop.DragDropBehaviorProperties.GetEventsStorage">
       <summary>
-        <para></para>
+        <para>Returns the <see cref="P:DevExpress.Utils.DragDrop.DragDropBehaviorProperties.Events"/> property value. For internal use.</para>
       </summary>
-      <returns></returns>
+      <returns>For internal use.</returns>
     </member>
     <member name="P:DevExpress.Utils.DragDrop.DragDropBehaviorProperties.InsertIndicatorVisible">
       <summary>
@@ -3549,9 +3549,9 @@ The DefaultBoolean.Default value is equivalent to DefaultBoolean.True if the sta
     </member>
     <member name="M:DevExpress.Utils.DragDrop.DragDropBehaviorProperties.SetEventsStorage(System.ComponentModel.IComponent)">
       <summary>
-        <para></para>
+        <para>Assigns the specified <see cref="T:DevExpress.Utils.DragDrop.DragDropEvents"/> object to the <see cref="P:DevExpress.Utils.DragDrop.DragDropBehaviorProperties.Events"/> property. For internal use.</para>
       </summary>
-      <param name="eventsStorage"></param>
+      <param name="eventsStorage">For internal use.</param>
     </member>
     <member name="T:DevExpress.Utils.DragDrop.DragDropEventArgs">
       <summary>
@@ -4182,6 +4182,75 @@ Provides storage for pens, fonts and brushes.</para>
       <param name="font">A <see cref="T:System.Drawing.Font"/> object which defines the font and the associated settings of the text.</param>
       <param name="maxWidth">An integer value specifying the maximum width of the string (in pixels).</param>
       <returns>A <see cref="T:System.Drawing.SizeF"/> structure which represents the size (in pixels) of the string.</returns>
+    </member>
+    <member name="M:DevExpress.Utils.Drawing.GraphicsCache.CalcVTextSize(System.String,System.Drawing.Font)">
+      <summary>
+        <para></para>
+      </summary>
+      <param name="text"></param>
+      <param name="font"></param>
+      <returns></returns>
+    </member>
+    <member name="M:DevExpress.Utils.Drawing.GraphicsCache.CalcVTextSize(System.String,System.Drawing.Font,System.Drawing.SizeF)">
+      <summary>
+        <para></para>
+      </summary>
+      <param name="text"></param>
+      <param name="font"></param>
+      <param name="layoutArea"></param>
+      <returns></returns>
+    </member>
+    <member name="M:DevExpress.Utils.Drawing.GraphicsCache.CalcVTextSize(System.String,System.Drawing.Font,System.Drawing.StringFormat,System.Drawing.SizeF)">
+      <summary>
+        <para></para>
+      </summary>
+      <param name="text"></param>
+      <param name="font"></param>
+      <param name="format"></param>
+      <param name="layoutArea"></param>
+      <returns></returns>
+    </member>
+    <member name="M:DevExpress.Utils.Drawing.GraphicsCache.CalcVTextSize(System.String,System.Drawing.Font,System.Drawing.StringFormat,System.Int32)">
+      <summary>
+        <para></para>
+      </summary>
+      <param name="text"></param>
+      <param name="font"></param>
+      <param name="strFormat"></param>
+      <param name="maxWidth"></param>
+      <returns></returns>
+    </member>
+    <member name="M:DevExpress.Utils.Drawing.GraphicsCache.CalcVTextSize(System.String,System.Drawing.Font,System.Drawing.StringFormat,System.Int32,System.Int32)">
+      <summary>
+        <para></para>
+      </summary>
+      <param name="text"></param>
+      <param name="font"></param>
+      <param name="strFormat"></param>
+      <param name="maxWidth"></param>
+      <param name="maxHeight"></param>
+      <returns></returns>
+    </member>
+    <member name="M:DevExpress.Utils.Drawing.GraphicsCache.CalcVTextSize(System.String,System.Drawing.Font,System.Drawing.StringFormat,System.Int32,System.Int32,System.Boolean@)">
+      <summary>
+        <para></para>
+      </summary>
+      <param name="text"></param>
+      <param name="font"></param>
+      <param name="strFormat"></param>
+      <param name="maxWidth"></param>
+      <param name="maxHeight"></param>
+      <param name="isCropped"></param>
+      <returns></returns>
+    </member>
+    <member name="M:DevExpress.Utils.Drawing.GraphicsCache.CalcVTextSize(System.String,System.Drawing.Font,System.Int32)">
+      <summary>
+        <para></para>
+      </summary>
+      <param name="text"></param>
+      <param name="font"></param>
+      <param name="maxWidth"></param>
+      <returns></returns>
     </member>
     <member name="M:DevExpress.Utils.Drawing.GraphicsCache.Clear">
       <summary>
@@ -6315,32 +6384,32 @@ The ImageCollection is also used as a part of the <see cref="T:DevExpress.Utils.
     </member>
     <member name="M:DevExpress.Utils.ImageCollection.GetImageListImage(System.Object,System.Int32,DevExpress.Utils.Design.ISvgPaletteProvider,System.Nullable{System.Drawing.Size},System.Nullable{System.Single})">
       <summary>
-        <para></para>
+        <para>Returns the image at the specified position in the specified image list.</para>
       </summary>
-      <param name="images"></param>
-      <param name="index"></param>
-      <param name="palette"></param>
-      <param name="size"></param>
-      <param name="scaleFactor"></param>
-      <returns></returns>
+      <param name="images">An object that represents the source of images.</param>
+      <param name="index">A zero-based integer that specifies the index of the image in the images.</param>
+      <param name="palette">An ISvgPaletteProvider object specifying colors used to paint vector images.</param>
+      <param name="size">A vector image size.</param>
+      <param name="scaleFactor">An integer value that specifies the scale factor.</param>
+      <returns>An <see cref="T:System.Drawing.Image"/> descendant that represents the image at the specified position within the specified image list. null (Nothing in Visual Basic) if the image isn&#39;t found.</returns>
     </member>
     <member name="M:DevExpress.Utils.ImageCollection.GetImageListImage(System.Object,System.Int32,System.Nullable{System.Single})">
       <summary>
-        <para></para>
+        <para>Returns the image at the specified position in the specified image list.</para>
       </summary>
-      <param name="images"></param>
-      <param name="index"></param>
-      <param name="scaleFactor"></param>
-      <returns></returns>
+      <param name="images">An object that represents the source of images.</param>
+      <param name="index">A zero-based integer that specifies the index of the image in the images.</param>
+      <param name="scaleFactor">An integer value that specifies the scale factor.</param>
+      <returns>An <see cref="T:System.Drawing.Image"/> descendant that represents the image at the specified position within the specified image list. null (Nothing in Visual Basic) if the image isn&#39;t found.</returns>
     </member>
     <member name="M:DevExpress.Utils.ImageCollection.GetImageListImage(System.Object,System.String,System.Nullable{System.Single})">
       <summary>
-        <para></para>
+        <para>Returns the image with the specified key in the specified image list.</para>
       </summary>
-      <param name="images"></param>
-      <param name="id"></param>
-      <param name="scaleFactor"></param>
-      <returns></returns>
+      <param name="images">An object that represents the source of images.</param>
+      <param name="id">A string value that is the key of the image to be returned.</param>
+      <param name="scaleFactor">An integer value that specifies the scale factor.</param>
+      <returns>An <see cref="T:System.Drawing.Image"/> descendant that represents the image at the specified position within the specified image list. null (Nothing in Visual Basic) if the image isn&#39;t found.</returns>
     </member>
     <member name="M:DevExpress.Utils.ImageCollection.GetImageListImageCount(System.Object)">
       <summary>
@@ -6351,16 +6420,16 @@ The ImageCollection is also used as a part of the <see cref="T:DevExpress.Utils.
     </member>
     <member name="M:DevExpress.Utils.ImageCollection.GetImageListImageSize(System.Object,System.Int32,System.Nullable{System.Single})">
       <summary>
-        <para></para>
+        <para>Returns the size of the image at the specified position in the image list.</para>
       </summary>
-      <param name="images"></param>
-      <param name="index"></param>
-      <param name="scaleFactor"></param>
-      <returns></returns>
+      <param name="images">An object that represents the source of images.</param>
+      <param name="index">The index of the required image in the images list.</param>
+      <param name="scaleFactor">An integer value that specifies a custom scale factor.</param>
+      <returns>A <see cref="T:System.Drawing.Size"/> structure that specifies the size of a specific image.</returns>
     </member>
     <member name="M:DevExpress.Utils.ImageCollection.GetImageListSize(System.Drawing.Image,System.Object,System.Int32)">
       <summary>
-        <para>Gets the size of the specified image or of an image in the image list addressed by a specific index.</para>
+        <para>Returns the size of the specified image or of an image in the image list addressed by a specific index.</para>
       </summary>
       <param name="image">An image whose size is returned.</param>
       <param name="images">An object that represents the source of images. This parameter is in effect if the image parameter is set to null.</param>
@@ -6369,11 +6438,11 @@ The ImageCollection is also used as a part of the <see cref="T:DevExpress.Utils.
     </member>
     <member name="M:DevExpress.Utils.ImageCollection.GetImageListSize(System.Object,System.Nullable{System.Single})">
       <summary>
-        <para></para>
+        <para>Returns the size of the images in the specified image list.</para>
       </summary>
-      <param name="images"></param>
-      <param name="scaleFactor"></param>
-      <returns></returns>
+      <param name="images">An object that represents the source of the images.</param>
+      <param name="scaleFactor">An integer value that specifies a custom scale factor.</param>
+      <returns>A structure that specifies the height and width of the images in the specified list.</returns>
     </member>
     <member name="E:DevExpress.Utils.ImageCollection.GetImageSize">
       <summary>

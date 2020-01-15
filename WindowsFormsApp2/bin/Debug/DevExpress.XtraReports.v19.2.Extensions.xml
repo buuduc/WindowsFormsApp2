@@ -3271,9 +3271,9 @@
     </member>
     <member name="P:DevExpress.XtraReports.UserDesigner.XRDesignMdiControllerDesignSettings.FilterCriteriaDisplayStyle">
       <summary>
-        <para></para>
+        <para>Gets or sets whether Filter Editors render filter criteria in the text format or in the visual format.</para>
       </summary>
-      <value></value>
+      <value>Text, to render filter criteria in the text format; Visual, to render filter criteria in the visual format; Default, to render filter criteria per the <see cref="P:DevExpress.XtraEditors.WindowsFormsSettings.FilterCriteriaDisplayStyle"/> global property value.</value>
     </member>
     <member name="P:DevExpress.XtraReports.UserDesigner.XRDesignMdiControllerDesignSettings.UseLegacyExpressionEditor">
       <summary>

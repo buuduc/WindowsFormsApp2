@@ -10251,7 +10251,7 @@
     </member>
     <member name="P:DevExpress.XtraReports.UI.DetailBand.PrintOnEmptyDataSource">
       <summary>
-        <para>For internal use.</para>
+        <para>Use the <see cref="P:DevExpress.XtraReports.UI.ReportPrintOptions.DetailCountOnEmptyDataSource"/> property instead.</para>
       </summary>
       <value></value>
     </member>
@@ -14653,9 +14653,9 @@
     </member>
     <member name="P:DevExpress.XtraReports.UI.XRChart.Parameters">
       <summary>
-        <para></para>
+        <para>Provides access to the chart&#39;s parameters collection.</para>
       </summary>
-      <value></value>
+      <value>The chart&#39;s parameters collection.</value>
     </member>
     <member name="E:DevExpress.XtraReports.UI.XRChart.PieSeriesPointExploded">
       <summary>
@@ -22010,7 +22010,7 @@
     </member>
     <member name="P:DevExpress.XtraReports.UI.XtraReportBase.DetailPrintCountOnEmptyDataSource">
       <summary>
-        <para>For internal use.</para>
+        <para>Use the <see cref="P:DevExpress.XtraReports.UI.ReportPrintOptions.DetailCountOnEmptyDataSource"/> property instead.</para>
       </summary>
       <value></value>
     </member>
@@ -22124,7 +22124,7 @@
     </member>
     <member name="P:DevExpress.XtraReports.UI.XtraReportBase.PrintOnEmptyDataSource">
       <summary>
-        <para>For internal use.</para>
+        <para>Use the <see cref="P:DevExpress.XtraReports.UI.ReportPrintOptions.PrintOnEmptyDataSource"/> property instead.</para>
       </summary>
       <value></value>
     </member>

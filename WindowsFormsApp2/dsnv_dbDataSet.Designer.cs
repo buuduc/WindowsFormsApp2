@@ -3186,22 +3186,8 @@ namespace WindowsFormsApp2.dsnv_dbDataSetTableAdapters {
             this._commandCollection[1].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Maso", global::System.Data.OleDb.OleDbType.WChar, 255, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Maso", global::System.Data.DataRowVersion.Original, false, null));
             this._commandCollection[2] = new global::System.Data.OleDb.OleDbCommand();
             this._commandCollection[2].Connection = this.Connection;
-            this._commandCollection[2].CommandText = "UPDATE `Danhsachnhanvien` SET `Maso` = ?, `STT` = ?, `Hoten` = ?, `Ghichu` = ? WH" +
-                "ERE ((`Maso` = ?) AND ((? = 1 AND `STT` IS NULL) OR (`STT` = ?)) AND ((? = 1 AND" +
-                " `Hoten` IS NULL) OR (`Hoten` = ?)) AND ((? = 1 AND `Ghichu` IS NULL) OR (`Ghich" +
-                "u` = ?)))";
+            this._commandCollection[2].CommandText = "SELECT        STT\r\nFROM            Danhsachnhanvien";
             this._commandCollection[2].CommandType = global::System.Data.CommandType.Text;
-            this._commandCollection[2].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Maso", global::System.Data.OleDb.OleDbType.WChar, 255, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Maso", global::System.Data.DataRowVersion.Current, false, null));
-            this._commandCollection[2].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("STT", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "STT", global::System.Data.DataRowVersion.Current, false, null));
-            this._commandCollection[2].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Hoten", global::System.Data.OleDb.OleDbType.WChar, 255, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Hoten", global::System.Data.DataRowVersion.Current, false, null));
-            this._commandCollection[2].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Ghichu", global::System.Data.OleDb.OleDbType.WChar, 255, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Ghichu", global::System.Data.DataRowVersion.Current, false, null));
-            this._commandCollection[2].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_Maso", global::System.Data.OleDb.OleDbType.WChar, 255, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Maso", global::System.Data.DataRowVersion.Original, false, null));
-            this._commandCollection[2].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_Maso1", global::System.Data.OleDb.OleDbType.WChar, 255, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Maso", global::System.Data.DataRowVersion.Original, false, null));
-            this._commandCollection[2].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_Maso2", global::System.Data.OleDb.OleDbType.WChar, 255, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Maso", global::System.Data.DataRowVersion.Original, false, null));
-            this._commandCollection[2].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_Maso3", global::System.Data.OleDb.OleDbType.WChar, 255, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Maso", global::System.Data.DataRowVersion.Original, false, null));
-            this._commandCollection[2].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_Maso4", global::System.Data.OleDb.OleDbType.WChar, 255, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Maso", global::System.Data.DataRowVersion.Original, false, null));
-            this._commandCollection[2].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_STT", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "STT", global::System.Data.DataRowVersion.Original, false, null));
-            this._commandCollection[2].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_STT1", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "STT", global::System.Data.DataRowVersion.Original, false, null));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3223,6 +3209,30 @@ namespace WindowsFormsApp2.dsnv_dbDataSetTableAdapters {
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
         public virtual dsnv_dbDataSet.DanhsachnhanvienDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
+            dsnv_dbDataSet.DanhsachnhanvienDataTable dataTable = new dsnv_dbDataSet.DanhsachnhanvienDataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int Fill_STT(dsnv_dbDataSet.DanhsachnhanvienDataTable dataTable) {
+            this.Adapter.SelectCommand = this.CommandCollection[2];
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
+        public virtual dsnv_dbDataSet.DanhsachnhanvienDataTable Get_STT() {
+            this.Adapter.SelectCommand = this.CommandCollection[2];
             dsnv_dbDataSet.DanhsachnhanvienDataTable dataTable = new dsnv_dbDataSet.DanhsachnhanvienDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
@@ -3447,95 +3457,6 @@ namespace WindowsFormsApp2.dsnv_dbDataSetTableAdapters {
             }
             else {
                 command.Parameters[0].Value = ((string)(Maso));
-            }
-            global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
-            if (((command.Connection.State & global::System.Data.ConnectionState.Open) 
-                        != global::System.Data.ConnectionState.Open)) {
-                command.Connection.Open();
-            }
-            int returnValue;
-            try {
-                returnValue = command.ExecuteNonQuery();
-            }
-            finally {
-                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
-                    command.Connection.Close();
-                }
-            }
-            return returnValue;
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, false)]
-        public virtual int UpdateQuery(string Maso, global::System.Nullable<int> STT, string Hoten, string Ghichu, string Original_Maso, string Original_Maso1, string Original_Maso2, string Original_Maso3, string Original_Maso4, global::System.Nullable<int> Original_STT, global::System.Nullable<int> Original_STT1) {
-            global::System.Data.OleDb.OleDbCommand command = this.CommandCollection[2];
-            if ((Maso == null)) {
-                throw new global::System.ArgumentNullException("Maso");
-            }
-            else {
-                command.Parameters[0].Value = ((string)(Maso));
-            }
-            if ((STT.HasValue == true)) {
-                command.Parameters[1].Value = ((int)(STT.Value));
-            }
-            else {
-                command.Parameters[1].Value = global::System.DBNull.Value;
-            }
-            if ((Hoten == null)) {
-                command.Parameters[2].Value = global::System.DBNull.Value;
-            }
-            else {
-                command.Parameters[2].Value = ((string)(Hoten));
-            }
-            if ((Ghichu == null)) {
-                command.Parameters[3].Value = global::System.DBNull.Value;
-            }
-            else {
-                command.Parameters[3].Value = ((string)(Ghichu));
-            }
-            if ((Original_Maso == null)) {
-                throw new global::System.ArgumentNullException("Original_Maso");
-            }
-            else {
-                command.Parameters[4].Value = ((string)(Original_Maso));
-            }
-            if ((Original_Maso1 == null)) {
-                throw new global::System.ArgumentNullException("Original_Maso1");
-            }
-            else {
-                command.Parameters[5].Value = ((string)(Original_Maso1));
-            }
-            if ((Original_Maso2 == null)) {
-                throw new global::System.ArgumentNullException("Original_Maso2");
-            }
-            else {
-                command.Parameters[6].Value = ((string)(Original_Maso2));
-            }
-            if ((Original_Maso3 == null)) {
-                throw new global::System.ArgumentNullException("Original_Maso3");
-            }
-            else {
-                command.Parameters[7].Value = ((string)(Original_Maso3));
-            }
-            if ((Original_Maso4 == null)) {
-                throw new global::System.ArgumentNullException("Original_Maso4");
-            }
-            else {
-                command.Parameters[8].Value = ((string)(Original_Maso4));
-            }
-            if ((Original_STT.HasValue == true)) {
-                command.Parameters[9].Value = ((int)(Original_STT.Value));
-            }
-            else {
-                command.Parameters[9].Value = global::System.DBNull.Value;
-            }
-            if ((Original_STT1.HasValue == true)) {
-                command.Parameters[10].Value = ((int)(Original_STT1.Value));
-            }
-            else {
-                command.Parameters[10].Value = global::System.DBNull.Value;
             }
             global::System.Data.ConnectionState previousConnectionState = command.Connection.State;
             if (((command.Connection.State & global::System.Data.ConnectionState.Open) 

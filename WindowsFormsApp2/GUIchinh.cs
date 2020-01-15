@@ -247,5 +247,19 @@ namespace WindowsFormsApp2
             }
 
         }
+
+        private void barButtonItem4_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+            DoiTenBang TB = new DoiTenBang();
+            TabPage Hienhanh = tabControl1.SelectedTab;
+            TB.TenThayDoi = Hienhanh.Text;
+            TB.ShowDialog();
+            if (TB.check)
+            {
+                
+                Hienhanh.Text = TB.TenThayDoi;
+            }
+        }
     }
 }

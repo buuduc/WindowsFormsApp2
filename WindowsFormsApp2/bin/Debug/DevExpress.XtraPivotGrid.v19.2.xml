@@ -720,6 +720,23 @@
       <param name="sender">The event source.</param>
       <param name="e">A <see cref="T:DevExpress.XtraPivotGrid.FilterPopupExcelEventArgs"/> object that contains event data.</param>
     </member>
+    <member name="T:DevExpress.XtraPivotGrid.FilterPopupExcelParseFilterCriteriaEventArgs">
+      <summary>
+        <para>Provides data for the <see cref="E:DevExpress.XtraPivotGrid.PivotGridControl.FilterPopupExcelParseFilterCriteria"/> event.</para>
+      </summary>
+    </member>
+    <member name="P:DevExpress.XtraPivotGrid.FilterPopupExcelParseFilterCriteriaEventArgs.Field">
+      <summary>
+        <para>Gets the processed field.</para>
+      </summary>
+      <value>An object that specifies the processed field.</value>
+    </member>
+    <member name="P:DevExpress.XtraPivotGrid.FilterPopupExcelParseFilterCriteriaEventArgs.PivotGrid">
+      <summary>
+        <para>Gets the pivot grid that raised the event.</para>
+      </summary>
+      <value>An object that specifies the pivot grid that raised the event.</value>
+    </member>
     <member name="T:DevExpress.XtraPivotGrid.FilterPopupExcelPrepareTemplateEventArgs">
       <summary>
         <para>Provides data for the <see cref="E:DevExpress.XtraPivotGrid.PivotGridControl.FilterPopupExcelPrepareTemplate"/> event.</para>
