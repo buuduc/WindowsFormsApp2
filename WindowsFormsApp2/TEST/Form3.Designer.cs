@@ -76,7 +76,6 @@
             this.thongtincongviecTableAdapter = new WindowsFormsApp2.dsnv_dbDataSetTableAdapters.ThongtincongviecTableAdapter();
             this.thongtinnhanvienTableAdapter = new WindowsFormsApp2.dsnv_dbDataSetTableAdapters.ThongtinnhanvienTableAdapter();
             
-            this.thongtin_nhansu_2TableAdapter = new WindowsFormsApp2.dsnv_dbDataSetTableAdapters.Thongtin_nhansu_2TableAdapter();
             this.hinhanhTableAdapter = new WindowsFormsApp2.dsnv_dbDataSetTableAdapters.HinhanhTableAdapter();
             this.masoTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.sTTTextEdit = new DevExpress.XtraEditors.TextEdit();
@@ -400,7 +399,6 @@
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
             this.tableAdapterManager.DanhsachnhanvienTableAdapter = null;
             this.tableAdapterManager.HinhanhTableAdapter = null;
-            this.tableAdapterManager.Thongtin_nhansu_2TableAdapter = null;
             this.tableAdapterManager.ThongtincongviecTableAdapter = this.thongtincongviecTableAdapter;
             this.tableAdapterManager.ThongtinnhanvienTableAdapter = this.thongtinnhanvienTableAdapter;
             this.tableAdapterManager.UpdateOrder = WindowsFormsApp2.dsnv_dbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
@@ -418,7 +416,6 @@
             // 
             // thongtin_nhansu_2TableAdapter
             // 
-            this.thongtin_nhansu_2TableAdapter.ClearBeforeFill = true;
             // 
             // hinhanhTableAdapter
             // 
@@ -754,7 +751,6 @@
         private System.Windows.Forms.BindingSource thongtinnhanvienBindingSource;
         private System.Windows.Forms.BindingSource thongtincongviecBindingSource;
         private dsnv_dbDataSetTableAdapters.ThongtincongviecTableAdapter thongtincongviecTableAdapter;
-        private dsnv_dbDataSetTableAdapters.Thongtin_nhansu_2TableAdapter thongtin_nhansu_2TableAdapter;
        
         private System.Windows.Forms.BindingSource hinhanhBindingSource;
         private dsnv_dbDataSetTableAdapters.HinhanhTableAdapter hinhanhTableAdapter;

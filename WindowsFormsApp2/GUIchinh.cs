@@ -99,12 +99,12 @@ namespace WindowsFormsApp2
             //Thongtinchitiet b = new Thongtinchitiet(this.k);
             //b.truyenData = new Thongtinchitiet.Truyenchocha(UpdateData);
 
-            Thongtinchitiet b;
-            b = new Thongtinchitiet(this.k);
-            b.truyenData = new Thongtinchitiet.Truyenchocha(UpdateData);
-            b.ShowDialog();
-            b.Close();
+            ThongTinNhanVien_New a = new ThongTinNhanVien_New();
+            a.Position = this.k;
+            a.truyenData = new ThongTinNhanVien_New.Truyenchocha(UpdateData);
             //Form3 a = new Form3(this.k);
+            a.ShowDialog();
+            a.Close();
 
 
 
@@ -158,8 +158,9 @@ namespace WindowsFormsApp2
                     }
 
             }
-            Thongtinchitiet_dele a = new Thongtinchitiet_dele(this.k);
-            a.truyenData = new Thongtinchitiet_dele.Truyenchocha(UpdateData);
+            ThongTinNhanVien_New a = new ThongTinNhanVien_New();
+            a.Position = this.k;
+            a.truyenData = new ThongTinNhanVien_New.Truyenchocha(UpdateData);
             //Form3 a = new Form3(this.k);
             a.ShowDialog();
             a.Close();

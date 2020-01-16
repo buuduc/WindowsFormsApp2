@@ -93,6 +93,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsnv_dbDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="ThongTinNhanVien_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongTinNhanVien_New.Designer.cs">
+      <DependentUpon>ThongTinNhanVien_New.cs</DependentUpon>
+    </Compile>
     <Compile Include="TEST\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,10 +125,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Thongtinchitiet _add.cs">
+    <Compile Include="ThatBai\Thongtinchitiet _add.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Thongtinchitiet _add.Designer.cs">
+    <Compile Include="ThatBai\Thongtinchitiet _add.Designer.cs">
       <DependentUpon>Thongtinchitiet _add.cs</DependentUpon>
     </Compile>
     <Compile Include="Thongtinchitiet _dele.cs">
@@ -131,10 +137,10 @@
     <Compile Include="Thongtinchitiet _dele.Designer.cs">
       <DependentUpon>Thongtinchitiet _dele.cs</DependentUpon>
     </Compile>
-    <Compile Include="Thongtinchitiet.cs">
+    <Compile Include="ThatBai\Thongtinchitiet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Thongtinchitiet.Designer.cs">
+    <Compile Include="ThatBai\Thongtinchitiet.Designer.cs">
       <DependentUpon>Thongtinchitiet.cs</DependentUpon>
     </Compile>
     <Compile Include="BangTuyChinh.cs">
@@ -145,6 +151,9 @@
     </Compile>
     <EmbeddedResource Include="DoiTenBang.resx">
       <DependentUpon>DoiTenBang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongTinNhanVien_New.resx">
+      <DependentUpon>ThongTinNhanVien_New.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TEST\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -168,13 +177,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Thongtinchitiet _add.resx">
+    <EmbeddedResource Include="ThatBai\Thongtinchitiet _add.resx">
       <DependentUpon>Thongtinchitiet _add.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Thongtinchitiet _dele.resx">
       <DependentUpon>Thongtinchitiet _dele.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Thongtinchitiet.resx">
+    <EmbeddedResource Include="ThatBai\Thongtinchitiet.resx">
       <DependentUpon>Thongtinchitiet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BangTuyChinh.resx">

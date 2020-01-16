@@ -929,7 +929,6 @@
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
             this.tableAdapterManager.DanhsachnhanvienTableAdapter = this.danhsachnhanvienTableAdapter;
             this.tableAdapterManager.HinhanhTableAdapter = null;
-            this.tableAdapterManager.Thongtin_nhansu_2TableAdapter = null;
             this.tableAdapterManager.ThongtincongviecTableAdapter = this.thongtincongviecTableAdapter;
             this.tableAdapterManager.ThongtinnhanvienTableAdapter = null;
             this.tableAdapterManager.UpdateOrder = WindowsFormsApp2.dsnv_dbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;

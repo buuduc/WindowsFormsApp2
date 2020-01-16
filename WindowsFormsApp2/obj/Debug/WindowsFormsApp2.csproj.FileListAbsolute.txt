@@ -175,7 +175,6 @@ C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\de\DevExpress.Pd
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\es\DevExpress.Pdf.v19.2.Core.resources.dll
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\ja\DevExpress.Pdf.v19.2.Core.resources.dll
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\ru\DevExpress.Pdf.v19.2.Core.resources.dll
-C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.DoiTenBang.resources
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.GUIchinh.resources
@@ -192,3 +191,4 @@ C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
 C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\dsnv_db.mdb
+C:\Users\HP\Desktop\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.ThongTinNhanVien_New.resources
