@@ -2,9 +2,10 @@
 <xs:schema id="dsnv_dbDataSet" targetNamespace="http://tempuri.org/dsnv_dbDataSet.xsd" xmlns:mstns="http://tempuri.org/dsnv_dbDataSet.xsd" xmlns="http://tempuri.org/dsnv_dbDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
   <xs:annotation>
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
-      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
           <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dsnv_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dsnv_dbConnectionString (Settings)" PropertyReference="ApplicationSettings.WindowsFormsApp2.Properties.Settings.GlobalReference.Default.dsnv_dbConnectionString" Provider="System.Data.OleDb" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dsnv_dbConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dsnv_dbConnectionString1 (Settings)" PropertyReference="ApplicationSettings.WindowsFormsApp2.Properties.Settings.GlobalReference.Default.dsnv_dbConnectionString1" Provider="System.Data.OleDb" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DanhsachnhanvienTableAdapter" GeneratorDataComponentClassName="DanhsachnhanvienTableAdapter" Name="Danhsachnhanvien" UserDataComponentName="DanhsachnhanvienTableAdapter">
@@ -449,6 +450,40 @@ FROM            Hinhanh</CommandText>
             </Mappings>
             <Sources />
           </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CongViec_NhanVienTableAdapter" GeneratorDataComponentClassName="CongViec_NhanVienTableAdapter" Name="CongViec_NhanVien" UserDataComponentName="CongViec_NhanVienTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dsnv_dbConnectionString1 (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Danhsachnhanvien.Maso, Danhsachnhanvien.STT, Danhsachnhanvien.Hoten, Thongtinnhanvien.Gioitinh, Thongtinnhanvien.Ngaysinh, Thongtinnhanvien.Noisinh, Thongtincongviec.Trangthai, Thongtincongviec.Vitri, 
+                         Thongtinnhanvien.Chuyennganh, Thongtinnhanvien.Trinhdo, Thongtincongviec.Ngaythuviec, Thongtincongviec.Ngayhopdong, Thongtincongviec.Noilamviec, Thongtincongviec.LoaiHopdong, Danhsachnhanvien.Ghichu
+FROM            ((Danhsachnhanvien INNER JOIN
+                         Thongtincongviec ON Danhsachnhanvien.Maso = Thongtincongviec.Maso) INNER JOIN
+                         Thongtinnhanvien ON Danhsachnhanvien.Maso = Thongtinnhanvien.Maso)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Maso" DataSetColumn="Maso" />
+              <Mapping SourceColumn="STT" DataSetColumn="STT" />
+              <Mapping SourceColumn="Hoten" DataSetColumn="Hoten" />
+              <Mapping SourceColumn="Gioitinh" DataSetColumn="Gioitinh" />
+              <Mapping SourceColumn="Ngaysinh" DataSetColumn="Ngaysinh" />
+              <Mapping SourceColumn="Noisinh" DataSetColumn="Noisinh" />
+              <Mapping SourceColumn="Trangthai" DataSetColumn="Trangthai" />
+              <Mapping SourceColumn="Vitri" DataSetColumn="Vitri" />
+              <Mapping SourceColumn="Chuyennganh" DataSetColumn="Chuyennganh" />
+              <Mapping SourceColumn="Trinhdo" DataSetColumn="Trinhdo" />
+              <Mapping SourceColumn="Ngaythuviec" DataSetColumn="Ngaythuviec" />
+              <Mapping SourceColumn="Ngayhopdong" DataSetColumn="Ngayhopdong" />
+              <Mapping SourceColumn="Noilamviec" DataSetColumn="Noilamviec" />
+              <Mapping SourceColumn="LoaiHopdong" DataSetColumn="LoaiHopdong" />
+              <Mapping SourceColumn="Ghichu" DataSetColumn="Ghichu" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
         </Tables>
         <Sources />
       </DataSource>
@@ -457,7 +492,7 @@ FROM            Hinhanh</CommandText>
   <xs:element name="dsnv_dbDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="dsnv_dbDataSet" msprop:Generator_UserDSName="dsnv_dbDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Danhsachnhanvien" msprop:Generator_TableClassName="DanhsachnhanvienDataTable" msprop:Generator_TableVarName="tableDanhsachnhanvien" msprop:Generator_RowChangedName="DanhsachnhanvienRowChanged" msprop:Generator_TablePropName="Danhsachnhanvien" msprop:Generator_RowDeletingName="DanhsachnhanvienRowDeleting" msprop:Generator_RowChangingName="DanhsachnhanvienRowChanging" msprop:Generator_RowEvHandlerName="DanhsachnhanvienRowChangeEventHandler" msprop:Generator_RowDeletedName="DanhsachnhanvienRowDeleted" msprop:Generator_RowClassName="DanhsachnhanvienRow" msprop:Generator_UserTableName="Danhsachnhanvien" msprop:Generator_RowEvArgName="DanhsachnhanvienRowChangeEvent">
+        <xs:element name="Danhsachnhanvien" msprop:Generator_TableClassName="DanhsachnhanvienDataTable" msprop:Generator_TableVarName="tableDanhsachnhanvien" msprop:Generator_TablePropName="Danhsachnhanvien" msprop:Generator_RowDeletingName="DanhsachnhanvienRowDeleting" msprop:Generator_RowChangingName="DanhsachnhanvienRowChanging" msprop:Generator_RowEvHandlerName="DanhsachnhanvienRowChangeEventHandler" msprop:Generator_RowDeletedName="DanhsachnhanvienRowDeleted" msprop:Generator_UserTableName="Danhsachnhanvien" msprop:Generator_RowChangedName="DanhsachnhanvienRowChanged" msprop:Generator_RowEvArgName="DanhsachnhanvienRowChangeEvent" msprop:Generator_RowClassName="DanhsachnhanvienRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Maso" msdata:Caption="Mã số nhân viên" msprop:Generator_ColumnVarNameInTable="columnMaso" msprop:Generator_ColumnPropNameInRow="Maso" msprop:Generator_ColumnPropNameInTable="MasoColumn" msprop:Generator_UserColumnName="Maso">
@@ -485,7 +520,7 @@ FROM            Hinhanh</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Thongtincongviec" msprop:Generator_TableClassName="ThongtincongviecDataTable" msprop:Generator_TableVarName="tableThongtincongviec" msprop:Generator_RowChangedName="ThongtincongviecRowChanged" msprop:Generator_TablePropName="Thongtincongviec" msprop:Generator_RowDeletingName="ThongtincongviecRowDeleting" msprop:Generator_RowChangingName="ThongtincongviecRowChanging" msprop:Generator_RowEvHandlerName="ThongtincongviecRowChangeEventHandler" msprop:Generator_RowDeletedName="ThongtincongviecRowDeleted" msprop:Generator_RowClassName="ThongtincongviecRow" msprop:Generator_UserTableName="Thongtincongviec" msprop:Generator_RowEvArgName="ThongtincongviecRowChangeEvent">
+        <xs:element name="Thongtincongviec" msprop:Generator_TableClassName="ThongtincongviecDataTable" msprop:Generator_TableVarName="tableThongtincongviec" msprop:Generator_TablePropName="Thongtincongviec" msprop:Generator_RowDeletingName="ThongtincongviecRowDeleting" msprop:Generator_RowChangingName="ThongtincongviecRowChanging" msprop:Generator_RowEvHandlerName="ThongtincongviecRowChangeEventHandler" msprop:Generator_RowDeletedName="ThongtincongviecRowDeleted" msprop:Generator_UserTableName="Thongtincongviec" msprop:Generator_RowChangedName="ThongtincongviecRowChanged" msprop:Generator_RowEvArgName="ThongtincongviecRowChangeEvent" msprop:Generator_RowClassName="ThongtincongviecRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Maso" msprop:Generator_ColumnVarNameInTable="columnMaso" msprop:Generator_ColumnPropNameInRow="Maso" msprop:Generator_ColumnPropNameInTable="MasoColumn" msprop:Generator_UserColumnName="Maso">
@@ -528,7 +563,7 @@ FROM            Hinhanh</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Thongtinnhanvien" msprop:Generator_TableClassName="ThongtinnhanvienDataTable" msprop:Generator_TableVarName="tableThongtinnhanvien" msprop:Generator_RowChangedName="ThongtinnhanvienRowChanged" msprop:Generator_TablePropName="Thongtinnhanvien" msprop:Generator_RowDeletingName="ThongtinnhanvienRowDeleting" msprop:Generator_RowChangingName="ThongtinnhanvienRowChanging" msprop:Generator_RowEvHandlerName="ThongtinnhanvienRowChangeEventHandler" msprop:Generator_RowDeletedName="ThongtinnhanvienRowDeleted" msprop:Generator_RowClassName="ThongtinnhanvienRow" msprop:Generator_UserTableName="Thongtinnhanvien" msprop:Generator_RowEvArgName="ThongtinnhanvienRowChangeEvent">
+        <xs:element name="Thongtinnhanvien" msprop:Generator_TableClassName="ThongtinnhanvienDataTable" msprop:Generator_TableVarName="tableThongtinnhanvien" msprop:Generator_TablePropName="Thongtinnhanvien" msprop:Generator_RowDeletingName="ThongtinnhanvienRowDeleting" msprop:Generator_RowChangingName="ThongtinnhanvienRowChanging" msprop:Generator_RowEvHandlerName="ThongtinnhanvienRowChangeEventHandler" msprop:Generator_RowDeletedName="ThongtinnhanvienRowDeleted" msprop:Generator_UserTableName="Thongtinnhanvien" msprop:Generator_RowChangedName="ThongtinnhanvienRowChanged" msprop:Generator_RowEvArgName="ThongtinnhanvienRowChangeEvent" msprop:Generator_RowClassName="ThongtinnhanvienRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Maso" msprop:Generator_ColumnVarNameInTable="columnMaso" msprop:Generator_ColumnPropNameInRow="Maso" msprop:Generator_ColumnPropNameInTable="MasoColumn" msprop:Generator_UserColumnName="Maso">
@@ -570,7 +605,7 @@ FROM            Hinhanh</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Thongtin_nhansu_2" msprop:Generator_TableClassName="Thongtin_nhansu_2DataTable" msprop:Generator_TableVarName="tableThongtin_nhansu_2" msprop:Generator_RowChangedName="Thongtin_nhansu_2RowChanged" msprop:Generator_TablePropName="Thongtin_nhansu_2" msprop:Generator_RowDeletingName="Thongtin_nhansu_2RowDeleting" msprop:Generator_RowChangingName="Thongtin_nhansu_2RowChanging" msprop:Generator_RowEvHandlerName="Thongtin_nhansu_2RowChangeEventHandler" msprop:Generator_RowDeletedName="Thongtin_nhansu_2RowDeleted" msprop:Generator_RowClassName="Thongtin_nhansu_2Row" msprop:Generator_UserTableName="Thongtin_nhansu_2" msprop:Generator_RowEvArgName="Thongtin_nhansu_2RowChangeEvent">
+        <xs:element name="Thongtin_nhansu_2" msprop:Generator_TableClassName="Thongtin_nhansu_2DataTable" msprop:Generator_TableVarName="tableThongtin_nhansu_2" msprop:Generator_TablePropName="Thongtin_nhansu_2" msprop:Generator_RowDeletingName="Thongtin_nhansu_2RowDeleting" msprop:Generator_RowChangingName="Thongtin_nhansu_2RowChanging" msprop:Generator_RowEvHandlerName="Thongtin_nhansu_2RowChangeEventHandler" msprop:Generator_RowDeletedName="Thongtin_nhansu_2RowDeleted" msprop:Generator_UserTableName="Thongtin_nhansu_2" msprop:Generator_RowChangedName="Thongtin_nhansu_2RowChanged" msprop:Generator_RowEvArgName="Thongtin_nhansu_2RowChangeEvent" msprop:Generator_RowClassName="Thongtin_nhansu_2Row">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Maso" msprop:Generator_ColumnVarNameInTable="columnMaso" msprop:Generator_ColumnPropNameInRow="Maso" msprop:Generator_ColumnPropNameInTable="MasoColumn" msprop:Generator_UserColumnName="Maso">
@@ -612,7 +647,7 @@ FROM            Hinhanh</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Hinhanh" msprop:Generator_TableClassName="HinhanhDataTable" msprop:Generator_TableVarName="tableHinhanh" msprop:Generator_RowChangedName="HinhanhRowChanged" msprop:Generator_TablePropName="Hinhanh" msprop:Generator_RowDeletingName="HinhanhRowDeleting" msprop:Generator_RowChangingName="HinhanhRowChanging" msprop:Generator_RowEvHandlerName="HinhanhRowChangeEventHandler" msprop:Generator_RowDeletedName="HinhanhRowDeleted" msprop:Generator_RowClassName="HinhanhRow" msprop:Generator_UserTableName="Hinhanh" msprop:Generator_RowEvArgName="HinhanhRowChangeEvent">
+        <xs:element name="Hinhanh" msprop:Generator_TableClassName="HinhanhDataTable" msprop:Generator_TableVarName="tableHinhanh" msprop:Generator_TablePropName="Hinhanh" msprop:Generator_RowDeletingName="HinhanhRowDeleting" msprop:Generator_RowChangingName="HinhanhRowChanging" msprop:Generator_RowEvHandlerName="HinhanhRowChangeEventHandler" msprop:Generator_RowDeletedName="HinhanhRowDeleted" msprop:Generator_UserTableName="Hinhanh" msprop:Generator_RowChangedName="HinhanhRowChanged" msprop:Generator_RowEvArgName="HinhanhRowChangeEvent" msprop:Generator_RowClassName="HinhanhRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Maso" msprop:Generator_ColumnVarNameInTable="columnMaso" msprop:Generator_ColumnPropNameInRow="Maso" msprop:Generator_ColumnPropNameInTable="MasoColumn" msprop:Generator_UserColumnName="Maso">
@@ -623,6 +658,93 @@ FROM            Hinhanh</CommandText>
                 </xs:simpleType>
               </xs:element>
               <xs:element name="Picture" msprop:Generator_ColumnVarNameInTable="columnPicture" msprop:Generator_ColumnPropNameInRow="Picture" msprop:Generator_ColumnPropNameInTable="PictureColumn" msprop:Generator_UserColumnName="Picture" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CongViec_NhanVien" msprop:Generator_TableClassName="CongViec_NhanVienDataTable" msprop:Generator_TableVarName="tableCongViec_NhanVien" msprop:Generator_TablePropName="CongViec_NhanVien" msprop:Generator_RowDeletingName="CongViec_NhanVienRowDeleting" msprop:Generator_RowChangingName="CongViec_NhanVienRowChanging" msprop:Generator_RowEvHandlerName="CongViec_NhanVienRowChangeEventHandler" msprop:Generator_RowDeletedName="CongViec_NhanVienRowDeleted" msprop:Generator_UserTableName="CongViec_NhanVien" msprop:Generator_RowChangedName="CongViec_NhanVienRowChanged" msprop:Generator_RowEvArgName="CongViec_NhanVienRowChangeEvent" msprop:Generator_RowClassName="CongViec_NhanVienRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Maso" msprop:Generator_ColumnVarNameInTable="columnMaso" msprop:Generator_ColumnPropNameInRow="Maso" msprop:Generator_ColumnPropNameInTable="MasoColumn" msprop:Generator_UserColumnName="Maso" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STT" msprop:Generator_ColumnVarNameInTable="columnSTT" msprop:Generator_ColumnPropNameInRow="STT" msprop:Generator_ColumnPropNameInTable="STTColumn" msprop:Generator_UserColumnName="STT" type="xs:int" minOccurs="0" />
+              <xs:element name="Hoten" msprop:Generator_ColumnVarNameInTable="columnHoten" msprop:Generator_ColumnPropNameInRow="Hoten" msprop:Generator_ColumnPropNameInTable="HotenColumn" msprop:Generator_UserColumnName="Hoten" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Gioitinh" msprop:Generator_ColumnVarNameInTable="columnGioitinh" msprop:Generator_ColumnPropNameInRow="Gioitinh" msprop:Generator_ColumnPropNameInTable="GioitinhColumn" msprop:Generator_UserColumnName="Gioitinh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ngaysinh" msprop:Generator_ColumnVarNameInTable="columnNgaysinh" msprop:Generator_ColumnPropNameInRow="Ngaysinh" msprop:Generator_ColumnPropNameInTable="NgaysinhColumn" msprop:Generator_UserColumnName="Ngaysinh" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Noisinh" msprop:Generator_ColumnVarNameInTable="columnNoisinh" msprop:Generator_ColumnPropNameInRow="Noisinh" msprop:Generator_ColumnPropNameInTable="NoisinhColumn" msprop:Generator_UserColumnName="Noisinh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Trangthai" msprop:Generator_ColumnVarNameInTable="columnTrangthai" msprop:Generator_ColumnPropNameInRow="Trangthai" msprop:Generator_ColumnPropNameInTable="TrangthaiColumn" msprop:Generator_UserColumnName="Trangthai" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Vitri" msprop:Generator_ColumnVarNameInTable="columnVitri" msprop:Generator_ColumnPropNameInRow="Vitri" msprop:Generator_ColumnPropNameInTable="VitriColumn" msprop:Generator_UserColumnName="Vitri" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Chuyennganh" msprop:Generator_ColumnVarNameInTable="columnChuyennganh" msprop:Generator_ColumnPropNameInRow="Chuyennganh" msprop:Generator_ColumnPropNameInTable="ChuyennganhColumn" msprop:Generator_UserColumnName="Chuyennganh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Trinhdo" msprop:Generator_ColumnVarNameInTable="columnTrinhdo" msprop:Generator_ColumnPropNameInRow="Trinhdo" msprop:Generator_ColumnPropNameInTable="TrinhdoColumn" msprop:Generator_UserColumnName="Trinhdo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ngaythuviec" msprop:Generator_ColumnVarNameInTable="columnNgaythuviec" msprop:Generator_ColumnPropNameInRow="Ngaythuviec" msprop:Generator_ColumnPropNameInTable="NgaythuviecColumn" msprop:Generator_UserColumnName="Ngaythuviec" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Ngayhopdong" msprop:Generator_ColumnVarNameInTable="columnNgayhopdong" msprop:Generator_ColumnPropNameInRow="Ngayhopdong" msprop:Generator_ColumnPropNameInTable="NgayhopdongColumn" msprop:Generator_UserColumnName="Ngayhopdong" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Noilamviec" msprop:Generator_ColumnVarNameInTable="columnNoilamviec" msprop:Generator_ColumnPropNameInRow="Noilamviec" msprop:Generator_ColumnPropNameInTable="NoilamviecColumn" msprop:Generator_UserColumnName="Noilamviec" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LoaiHopdong" msprop:Generator_ColumnVarNameInTable="columnLoaiHopdong" msprop:Generator_ColumnPropNameInRow="LoaiHopdong" msprop:Generator_ColumnPropNameInTable="LoaiHopdongColumn" msprop:Generator_UserColumnName="LoaiHopdong" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ghichu" msprop:Generator_ColumnVarNameInTable="columnGhichu" msprop:Generator_ColumnPropNameInRow="Ghichu" msprop:Generator_ColumnPropNameInTable="GhichuColumn" msprop:Generator_UserColumnName="Ghichu" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
                     <xs:maxLength value="255" />
@@ -657,10 +779,10 @@ FROM            Hinhanh</CommandText>
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="DanhsachnhanvienThongtincongviec" msdata:parent="Danhsachnhanvien" msdata:child="Thongtincongviec" msdata:parentkey="Maso" msdata:childkey="Maso" msprop:Generator_UserChildTable="Thongtincongviec" msprop:Generator_ChildPropName="GetThongtincongviecRows" msprop:Generator_UserRelationName="DanhsachnhanvienThongtincongviec" msprop:Generator_RelationVarName="relationDanhsachnhanvienThongtincongviec" msprop:Generator_UserParentTable="Danhsachnhanvien" msprop:Generator_ParentPropName="DanhsachnhanvienRow" />
-      <msdata:Relationship name="DanhsachnhanvienThongtinnhanvien" msdata:parent="Danhsachnhanvien" msdata:child="Thongtinnhanvien" msdata:parentkey="Maso" msdata:childkey="Maso" msprop:Generator_UserChildTable="Thongtinnhanvien" msprop:Generator_ChildPropName="GetThongtinnhanvienRows" msprop:Generator_UserRelationName="DanhsachnhanvienThongtinnhanvien" msprop:Generator_RelationVarName="relationDanhsachnhanvienThongtinnhanvien" msprop:Generator_UserParentTable="Danhsachnhanvien" msprop:Generator_ParentPropName="DanhsachnhanvienRow" />
-      <msdata:Relationship name="DanhsachnhanvienThongtin_nhansu_2" msdata:parent="Danhsachnhanvien" msdata:child="Thongtin_nhansu_2" msdata:parentkey="Maso" msdata:childkey="Maso" msprop:Generator_UserChildTable="Thongtin_nhansu_2" msprop:Generator_ChildPropName="GetThongtin_nhansu_2Rows" msprop:Generator_UserRelationName="DanhsachnhanvienThongtin_nhansu_2" msprop:Generator_RelationVarName="relationDanhsachnhanvienThongtin_nhansu_2" msprop:Generator_UserParentTable="Danhsachnhanvien" msprop:Generator_ParentPropName="DanhsachnhanvienRow" />
-      <msdata:Relationship name="DanhsachnhanvienHinhanh" msdata:parent="Danhsachnhanvien" msdata:child="Hinhanh" msdata:parentkey="Maso" msdata:childkey="Maso" msprop:Generator_UserChildTable="Hinhanh" msprop:Generator_ChildPropName="GetHinhanhRows" msprop:Generator_UserRelationName="DanhsachnhanvienHinhanh" msprop:Generator_RelationVarName="relationDanhsachnhanvienHinhanh" msprop:Generator_UserParentTable="Danhsachnhanvien" msprop:Generator_ParentPropName="DanhsachnhanvienRow" />
+      <msdata:Relationship name="DanhsachnhanvienThongtincongviec" msdata:parent="Danhsachnhanvien" msdata:child="Thongtincongviec" msdata:parentkey="Maso" msdata:childkey="Maso" msprop:Generator_UserChildTable="Thongtincongviec" msprop:Generator_ChildPropName="GetThongtincongviecRows" msprop:Generator_UserRelationName="DanhsachnhanvienThongtincongviec" msprop:Generator_ParentPropName="DanhsachnhanvienRow" msprop:Generator_RelationVarName="relationDanhsachnhanvienThongtincongviec" msprop:Generator_UserParentTable="Danhsachnhanvien" />
+      <msdata:Relationship name="DanhsachnhanvienThongtinnhanvien" msdata:parent="Danhsachnhanvien" msdata:child="Thongtinnhanvien" msdata:parentkey="Maso" msdata:childkey="Maso" msprop:Generator_UserChildTable="Thongtinnhanvien" msprop:Generator_ChildPropName="GetThongtinnhanvienRows" msprop:Generator_UserRelationName="DanhsachnhanvienThongtinnhanvien" msprop:Generator_ParentPropName="DanhsachnhanvienRow" msprop:Generator_RelationVarName="relationDanhsachnhanvienThongtinnhanvien" msprop:Generator_UserParentTable="Danhsachnhanvien" />
+      <msdata:Relationship name="DanhsachnhanvienThongtin_nhansu_2" msdata:parent="Danhsachnhanvien" msdata:child="Thongtin_nhansu_2" msdata:parentkey="Maso" msdata:childkey="Maso" msprop:Generator_UserChildTable="Thongtin_nhansu_2" msprop:Generator_ChildPropName="GetThongtin_nhansu_2Rows" msprop:Generator_UserRelationName="DanhsachnhanvienThongtin_nhansu_2" msprop:Generator_ParentPropName="DanhsachnhanvienRow" msprop:Generator_RelationVarName="relationDanhsachnhanvienThongtin_nhansu_2" msprop:Generator_UserParentTable="Danhsachnhanvien" />
+      <msdata:Relationship name="DanhsachnhanvienHinhanh" msdata:parent="Danhsachnhanvien" msdata:child="Hinhanh" msdata:parentkey="Maso" msdata:childkey="Maso" msprop:Generator_UserChildTable="Hinhanh" msprop:Generator_ChildPropName="GetHinhanhRows" msprop:Generator_UserRelationName="DanhsachnhanvienHinhanh" msprop:Generator_ParentPropName="DanhsachnhanvienRow" msprop:Generator_RelationVarName="relationDanhsachnhanvienHinhanh" msprop:Generator_UserParentTable="Danhsachnhanvien" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>

@@ -38,6 +38,8 @@ namespace WindowsFormsApp2
             this.hinhanhBindingSource.EndEdit();
             this.hinhanhTableAdapter.Update(this.dsnv_dbDataSet);
             // 
+            ADDROW();
+
             truyenData();
                           
             //Thongtinchitiet a = new Thongtinchitiet(this.k);
@@ -91,6 +93,7 @@ namespace WindowsFormsApp2
         }
         private void Thongtinchitiet_Load(object sender, EventArgs e)
         {
+            ADDROW();
             // TODO: This line of code loads data into the 'dsnv_dbDataSet.Hinhanh' table. You can move, or remove it, as needed.
             this.hinhanhTableAdapter.Fill(this.dsnv_dbDataSet.Hinhanh);
             // TODO: This line of code loads data into the 'dsnv_dbDataSet.Thongtincongviec' table. You can move, or remove it, as needed.
@@ -101,11 +104,18 @@ namespace WindowsFormsApp2
             this.danhsachnhanvienTableAdapter.Fill(this.dsnv_dbDataSet.Danhsachnhanvien);
             //
             danhsachnhanvienBindingSource.Position = System.Convert.ToInt32(this.k);
-            this.ADDROW();
+           
         }
         private void ADDROW()
         {
 
+            if (masoTextEdit.Text == "")
+            {
+                this.masoTextEdit.Text = this.k.ToString();
+                this.danhsachnhanvienBindingSource.EndEdit();
+
+                this.danhsachnhanvienTableAdapter.Update(this.dsnv_dbDataSet);
+            }
             int p = this.hinhanhBindingSource.List.Count;
             if (dsnv_dbDataSet.Hinhanh.FindByMaso(masoTextEdit.Text) == null)
             {

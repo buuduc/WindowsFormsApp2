@@ -182,7 +182,6 @@
             this.ribbonPage3});
             this.ribbonControl1.Size = new System.Drawing.Size(800, 158);
             this.ribbonControl1.StatusBar = this.ribbonStatusBar1;
-            this.ribbonControl1.Click += new System.EventHandler(this.ribbonControl1_Click);
             // 
             // barButtonItem1
             // 

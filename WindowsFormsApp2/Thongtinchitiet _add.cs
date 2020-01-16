@@ -23,7 +23,11 @@ namespace WindowsFormsApp2
         public delegate void Truyenchocha();
         public Truyenchocha truyenData;
         public void danhsachnhanvienBindingNavigatorSaveItem_Click(object sender, EventArgs e)
-        {
+        {   if (masoTextEdit.Text== "")
+            {
+                MessageBox.Show("Bạn phải nhập mã số");
+            }
+            else { 
             SavePicture();
             this.Validate();
             this.danhsachnhanvienBindingSource.EndEdit();
@@ -39,6 +43,7 @@ namespace WindowsFormsApp2
             this.hinhanhTableAdapter.Update(this.dsnv_dbDataSet);
             // 
             truyenData();
+            }
             
             //// TODO: This line of code loads data into the 'dsnv_dbDataSet.Thongtinnhanvien' table. You can move, or remove it, as needed.
             //thongtinnhanvienTableAdapter.Fill(this.dsnv_dbDataSet.Thongtinnhanvien);
@@ -92,7 +97,8 @@ namespace WindowsFormsApp2
             
         }
         private void Thongtinchitiet_add_Load(object sender, EventArgs e)
-        {
+        {   this.danhsachnhanvienBindingSource.AddNew();
+            
             // TODO: This line of code loads data into the 'dsnv_dbDataSet.Hinhanh' table. You can move, or remove it, as needed.
             this.hinhanhTableAdapter.Fill(this.dsnv_dbDataSet.Hinhanh);
             // TODO: This line of code loads data into the 'dsnv_dbDataSet.Thongtincongviec' table. You can move, or remove it, as needed.
@@ -103,21 +109,39 @@ namespace WindowsFormsApp2
             this.danhsachnhanvienTableAdapter.Fill(this.dsnv_dbDataSet.Danhsachnhanvien);
             //
             danhsachnhanvienBindingSource.Position = System.Convert.ToInt32(this.k);
-            this.ADDROW();
             this.danhsachnhanvienBindingSource.AddNew();
+            //this.ADDROW();
             sTTTextEdit.Text = bindingNavigatorPositionItem.Text;
         }
         private void ADDROW()
         {
+            if (masoTextEdit.Text == "")
+            {
+                this.masoTextEdit.Text = "<Nhập Mã số mới>";
+                this.danhsachnhanvienBindingSource.EndEdit();
 
+                this.danhsachnhanvienTableAdapter.Update(this.dsnv_dbDataSet);
+            }
             int p = this.hinhanhBindingSource.List.Count;
+            //if (dsnv_dbDataSet.Danhsachnhanvien.FindByMaso(masoTextEdit.Text) == null)
+            //{
+            //    DataRow workRow = dsnv_dbDataSet.Danhsachnhanvien.NewRow();
+            //    workRow[0] = masoTextEdit.Text;
+            //    dsnv_dbDataSet.Danhsachnhanvien.Rows.Add(workRow);
+
+            //    this.danhsachnhanvienBindingSource.EndEdit();
+
+            //    this.tableAdapterManager.UpdateAll(this.dsnv_dbDataSet);
+            //}
             if (dsnv_dbDataSet.Hinhanh.FindByMaso(masoTextEdit.Text) == null)
             {
                 DataRow workRow = dsnv_dbDataSet.Hinhanh.NewRow();
                 workRow[0] = masoTextEdit.Text;
                 dsnv_dbDataSet.Hinhanh.Rows.Add(workRow);
+                
                 this.hinhanhBindingSource.EndEdit();
-                this.tableAdapterManager.UpdateAll(this.dsnv_dbDataSet);
+                this.hinhanhTableAdapter.Update(this.dsnv_dbDataSet);
+                //this.tableAdapterManager.UpdateAll(this.dsnv_dbDataSet);
             }
 
             if (dsnv_dbDataSet.Thongtincongviec.FindByMaso(masoTextEdit.Text) == null)
@@ -125,7 +149,9 @@ namespace WindowsFormsApp2
                 DataRow workRow = dsnv_dbDataSet.Thongtincongviec.NewRow();
                 workRow[0] = masoTextEdit.Text;
                 dsnv_dbDataSet.Thongtincongviec.Rows.Add(workRow);
+               
                 this.thongtincongviecBindingSource.EndEdit();
+                
                 this.thongtincongviecTableAdapter.Update(this.dsnv_dbDataSet);
             }
             if (dsnv_dbDataSet.Thongtinnhanvien.FindByMaso(masoTextEdit.Text) == null)
@@ -133,6 +159,7 @@ namespace WindowsFormsApp2
                 DataRow workRow = dsnv_dbDataSet.Thongtinnhanvien.NewRow();
                 workRow[0] = masoTextEdit.Text;
                 dsnv_dbDataSet.Thongtinnhanvien.Rows.Add(workRow);
+                
                 this.thongtinnhanvienBindingSource.EndEdit();
                 this.thongtinnhanvienTableAdapter.Update(this.dsnv_dbDataSet);
             }
@@ -174,6 +201,7 @@ namespace WindowsFormsApp2
             {
                 case DialogResult.Yes:
                     {
+                        
                         SavePicture();
                         this.Validate();
                         this.danhsachnhanvienBindingSource.EndEdit();
@@ -188,6 +216,7 @@ namespace WindowsFormsApp2
                         this.hinhanhBindingSource.EndEdit();
                         this.hinhanhTableAdapter.Update(this.dsnv_dbDataSet);
                         // 
+                        ADDROW();
                         truyenData();
 
                         

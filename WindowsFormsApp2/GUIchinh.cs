@@ -170,10 +170,7 @@ namespace WindowsFormsApp2
 
         }
 
-        private void ribbonControl1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
@@ -244,6 +241,7 @@ namespace WindowsFormsApp2
                 tabmoi.Controls.Add(new BangTuyChinh());
                 tabControl1.TabPages.Add(tabmoi);
                 tabControl1.SelectedTab = tabmoi;
+                
             }
 
         }
