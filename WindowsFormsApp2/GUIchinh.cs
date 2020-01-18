@@ -62,7 +62,7 @@ namespace WindowsFormsApp2
 
         private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            int s = tabControl1.SelectedIndex;
+            int s = 1;/*tabControl1.SelectedIndex;*/
 
             //int[] k = gridView1.GetSelectedRows();
             switch (s)
@@ -137,7 +137,7 @@ namespace WindowsFormsApp2
 
         private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            int s = tabControl1.SelectedIndex;
+            int s = 1;
             switch (s)
 
             {
@@ -203,7 +203,7 @@ namespace WindowsFormsApp2
         {
 
 
-            int s = tabControl1.SelectedIndex;
+            int s = 1;
             switch (s)
 
             {
@@ -252,7 +252,7 @@ namespace WindowsFormsApp2
                 tabmoi.Controls.Add(new BangTuyChinh());
                 tabControl1.TabPages.Add(tabmoi);
                 tabControl1.SelectedTab = tabmoi;
-                
+                xtraTabControl1.TabPages.Add(tabmoi);
             }
 
         }
@@ -286,6 +286,11 @@ namespace WindowsFormsApp2
             this.Validate();
             this.thongtincongviecBindingSource.EndEdit();
             this.thongtincongviecTableAdapter.Update(this.dsnv_dbDataSet.Thongtincongviec);
+        }
+
+        private void xtraTabControl1_CloseButtonClick(object sender, EventArgs e)
+        {
+
         }
     }
 }
