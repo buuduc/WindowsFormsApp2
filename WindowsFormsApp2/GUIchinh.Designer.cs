@@ -38,6 +38,10 @@
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.ThemBang = new DevExpress.XtraBars.BarButtonItem();
             this.DoiTen = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonGalleryBarItem1 = new DevExpress.XtraBars.RibbonGalleryBarItem();
+            this.skinPaletteRibbonGalleryBarItem1 = new DevExpress.XtraBars.SkinPaletteRibbonGalleryBarItem();
+            this.barStaticItem1 = new DevExpress.XtraBars.BarStaticItem();
+            this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -57,14 +61,63 @@
             this.thongtincongviecTableAdapter = new WindowsFormsApp2.dsnv_dbDataSetTableAdapters.ThongtincongviecTableAdapter();
             this.thongtinnhanvienTableAdapter = new WindowsFormsApp2.dsnv_dbDataSetTableAdapters.ThongtinnhanvienTableAdapter();
             this.miniToolStrip = new System.Windows.Forms.BindingNavigator(this.components);
-            this.gridView6 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.danhsachnhanvienGridControl = new DevExpress.XtraGrid.GridControl();
+            this.ribbonPage5 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.dsnv_dbDataSet1 = new WindowsFormsApp2.dsnv_dbDataSet();
+            this.colMaso1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNgaythuviec = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNgayhopdong = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTrangthai = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colVitri = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNoilamviec = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colLoaiHopdong = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
+            this.ribbonPage4 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            this.ribbonPageCategory1 = new DevExpress.XtraBars.Ribbon.RibbonPageCategory();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
+            this.toolStripButton15 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton16 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton17 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton18 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripTextBox3 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton19 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton20 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton21 = new System.Windows.Forms.ToolStripButton();
+            this.thongtincongviecGridControl = new DevExpress.XtraGrid.GridControl();
+            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.colMaso3 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNgaythuviec1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNgayhopdong1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTrangthai1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colVitri1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNoilamviec1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colLoaiHopdong1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridView5 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridView7 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colMaso = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colSTT = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colHoten = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colGhichu = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.danhsachnhanvienGridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView8 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridView6 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.bindingNavigator2 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
@@ -101,45 +154,27 @@
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.danhsachnhanvienBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.gridView4 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
-            this.thongtincongviecGridControl = new DevExpress.XtraGrid.GridControl();
-            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridView5 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridView7 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.ribbonPage5 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.dsnv_dbDataSet1 = new WindowsFormsApp2.dsnv_dbDataSet();
-            this.colMaso1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colNgaythuviec = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colNgayhopdong = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colTrangthai = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colVitri = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colNoilamviec = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colLoaiHopdong = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.danhsachnhanvienBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dsnv_dbDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.thongtincongviecBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.thongtinnhanvienBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.miniToolStrip)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.danhsachnhanvienGridControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dsnv_dbDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
+            this.bindingNavigator1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.thongtincongviecGridControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.danhsachnhanvienGridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView6)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).BeginInit();
             this.bindingNavigator2.SuspendLayout();
@@ -148,15 +183,8 @@
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.danhsachnhanvienBindingNavigator)).BeginInit();
             this.danhsachnhanvienBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView4)).BeginInit();
             this.tabControl1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.thongtincongviecGridControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dsnv_dbDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -172,9 +200,13 @@
             this.RefreshButton,
             this.barButtonItem3,
             this.ThemBang,
-            this.DoiTen});
+            this.DoiTen,
+            this.ribbonGalleryBarItem1,
+            this.skinPaletteRibbonGalleryBarItem1,
+            this.barStaticItem1,
+            this.barButtonItem4});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 8;
+            this.ribbonControl1.MaxItemId = 13;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -235,6 +267,34 @@
             this.DoiTen.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("DoiTen.ImageOptions.LargeImage")));
             this.DoiTen.Name = "DoiTen";
             this.DoiTen.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
+            // 
+            // ribbonGalleryBarItem1
+            // 
+            this.ribbonGalleryBarItem1.Caption = "ribbonGalleryBarItem1";
+            this.ribbonGalleryBarItem1.Id = 8;
+            this.ribbonGalleryBarItem1.Name = "ribbonGalleryBarItem1";
+            // 
+            // skinPaletteRibbonGalleryBarItem1
+            // 
+            this.skinPaletteRibbonGalleryBarItem1.Caption = "skinPaletteRibbonGalleryBarItem1";
+            this.skinPaletteRibbonGalleryBarItem1.Id = 9;
+            this.skinPaletteRibbonGalleryBarItem1.Name = "skinPaletteRibbonGalleryBarItem1";
+            // 
+            // barStaticItem1
+            // 
+            this.barStaticItem1.Caption = "barStaticItem1";
+            this.barStaticItem1.Id = 10;
+            this.barStaticItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barStaticItem1.ImageOptions.Image")));
+            this.barStaticItem1.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barStaticItem1.ImageOptions.LargeImage")));
+            this.barStaticItem1.Name = "barStaticItem1";
+            this.barStaticItem1.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            // 
+            // barButtonItem4
+            // 
+            this.barButtonItem4.Caption = "barButtonItem4";
+            this.barButtonItem4.Id = 11;
+            this.barButtonItem4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
+            this.barButtonItem4.Name = "barButtonItem4";
             // 
             // ribbonPage1
             // 
@@ -337,9 +397,6 @@
             // 
             this.thongtinnhanvienTableAdapter.ClearBeforeFill = true;
             // 
-            // thongtin_nhansu_2TableAdapter
-            // 
-            // 
             // miniToolStrip
             // 
             this.miniToolStrip.AccessibleName = "New item selection";
@@ -361,527 +418,6 @@
             this.miniToolStrip.Size = new System.Drawing.Size(278, 25);
             this.miniToolStrip.TabIndex = 4;
             this.miniToolStrip.RefreshItems += new System.EventHandler(this.miniToolStrip_RefreshItems);
-            // 
-            // gridView6
-            // 
-            this.gridView6.GridControl = this.danhsachnhanvienGridControl;
-            this.gridView6.Name = "gridView6";
-            // 
-            // danhsachnhanvienGridControl
-            // 
-            this.danhsachnhanvienGridControl.DataSource = this.danhsachnhanvienBindingSource;
-            this.danhsachnhanvienGridControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            gridLevelNode2.RelationName = "Level1";
-            this.danhsachnhanvienGridControl.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode2});
-            this.danhsachnhanvienGridControl.Location = new System.Drawing.Point(3, 3);
-            this.danhsachnhanvienGridControl.MainView = this.gridView1;
-            this.danhsachnhanvienGridControl.MenuManager = this.ribbonControl1;
-            this.danhsachnhanvienGridControl.Name = "danhsachnhanvienGridControl";
-            this.danhsachnhanvienGridControl.Size = new System.Drawing.Size(786, 236);
-            this.danhsachnhanvienGridControl.TabIndex = 0;
-            this.danhsachnhanvienGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1,
-            this.gridView8,
-            this.gridView6});
-            this.danhsachnhanvienGridControl.Click += new System.EventHandler(this.danhsachnhanvienGridControl_Click);
-            // 
-            // gridView1
-            // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colMaso,
-            this.colSTT,
-            this.colHoten,
-            this.colGhichu});
-            this.gridView1.GridControl = this.danhsachnhanvienGridControl;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
-            new DevExpress.XtraGrid.Columns.GridColumnSortInfo(this.colSTT, DevExpress.Data.ColumnSortOrder.Ascending)});
-            // 
-            // colMaso
-            // 
-            this.colMaso.Caption = "Mã số nhân viên";
-            this.colMaso.FieldName = "Maso";
-            this.colMaso.Name = "colMaso";
-            this.colMaso.Visible = true;
-            this.colMaso.VisibleIndex = 0;
-            this.colMaso.Width = 94;
-            // 
-            // colSTT
-            // 
-            this.colSTT.Caption = "Số thứ tự";
-            this.colSTT.FieldName = "STT";
-            this.colSTT.Name = "colSTT";
-            this.colSTT.Visible = true;
-            this.colSTT.VisibleIndex = 1;
-            this.colSTT.Width = 59;
-            // 
-            // colHoten
-            // 
-            this.colHoten.Caption = "Họ và Tên";
-            this.colHoten.FieldName = "Hoten";
-            this.colHoten.Name = "colHoten";
-            this.colHoten.Visible = true;
-            this.colHoten.VisibleIndex = 2;
-            this.colHoten.Width = 350;
-            // 
-            // colGhichu
-            // 
-            this.colGhichu.Caption = "Ghi chú";
-            this.colGhichu.FieldName = "Ghichu";
-            this.colGhichu.Name = "colGhichu";
-            this.colGhichu.Visible = true;
-            this.colGhichu.VisibleIndex = 3;
-            this.colGhichu.Width = 165;
-            // 
-            // gridView8
-            // 
-            this.gridView8.GridControl = this.danhsachnhanvienGridControl;
-            this.gridView8.Name = "gridView8";
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.AutoScroll = true;
-            this.tabPage3.Controls.Add(this.bindingNavigator2);
-            this.tabPage3.Controls.Add(this.thongtinnhanvienGridControl);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(792, 242);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Thông tin nhân viên";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // bindingNavigator2
-            // 
-            this.bindingNavigator2.AddNewItem = this.toolStripButton8;
-            this.bindingNavigator2.BindingSource = this.thongtinnhanvienBindingSource;
-            this.bindingNavigator2.CountItem = this.toolStripLabel2;
-            this.bindingNavigator2.DeleteItem = this.toolStripButton9;
-            this.bindingNavigator2.Dock = System.Windows.Forms.DockStyle.None;
-            this.bindingNavigator2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton10,
-            this.toolStripButton11,
-            this.toolStripSeparator4,
-            this.toolStripTextBox2,
-            this.toolStripLabel2,
-            this.toolStripSeparator5,
-            this.toolStripButton12,
-            this.toolStripButton13,
-            this.toolStripSeparator6,
-            this.toolStripButton8,
-            this.toolStripButton9,
-            this.toolStripButton14});
-            this.bindingNavigator2.Location = new System.Drawing.Point(0, 9);
-            this.bindingNavigator2.MoveFirstItem = this.toolStripButton10;
-            this.bindingNavigator2.MoveLastItem = this.toolStripButton13;
-            this.bindingNavigator2.MoveNextItem = this.toolStripButton12;
-            this.bindingNavigator2.MovePreviousItem = this.toolStripButton11;
-            this.bindingNavigator2.Name = "bindingNavigator2";
-            this.bindingNavigator2.PositionItem = this.toolStripTextBox2;
-            this.bindingNavigator2.Size = new System.Drawing.Size(278, 25);
-            this.bindingNavigator2.TabIndex = 4;
-            this.bindingNavigator2.Text = "bindingNavigator1";
-            // 
-            // toolStripButton8
-            // 
-            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
-            this.toolStripButton8.Name = "toolStripButton8";
-            this.toolStripButton8.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton8.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton8.Text = "Add new";
-            // 
-            // toolStripLabel2
-            // 
-            this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(35, 22);
-            this.toolStripLabel2.Text = "of {0}";
-            this.toolStripLabel2.ToolTipText = "Total number of items";
-            // 
-            // toolStripButton9
-            // 
-            this.toolStripButton9.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton9.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton9.Image")));
-            this.toolStripButton9.Name = "toolStripButton9";
-            this.toolStripButton9.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton9.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton9.Text = "Delete";
-            // 
-            // toolStripButton10
-            // 
-            this.toolStripButton10.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton10.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton10.Image")));
-            this.toolStripButton10.Name = "toolStripButton10";
-            this.toolStripButton10.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton10.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton10.Text = "Move first";
-            // 
-            // toolStripButton11
-            // 
-            this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton11.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton11.Image")));
-            this.toolStripButton11.Name = "toolStripButton11";
-            this.toolStripButton11.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton11.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton11.Text = "Move previous";
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripTextBox2
-            // 
-            this.toolStripTextBox2.AccessibleName = "Position";
-            this.toolStripTextBox2.AutoSize = false;
-            this.toolStripTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.toolStripTextBox2.Name = "toolStripTextBox2";
-            this.toolStripTextBox2.Size = new System.Drawing.Size(50, 23);
-            this.toolStripTextBox2.Text = "0";
-            this.toolStripTextBox2.ToolTipText = "Current position";
-            this.toolStripTextBox2.Click += new System.EventHandler(this.toolStripTextBox2_Click);
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripButton12
-            // 
-            this.toolStripButton12.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton12.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton12.Image")));
-            this.toolStripButton12.Name = "toolStripButton12";
-            this.toolStripButton12.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton12.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton12.Text = "Move next";
-            // 
-            // toolStripButton13
-            // 
-            this.toolStripButton13.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton13.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton13.Image")));
-            this.toolStripButton13.Name = "toolStripButton13";
-            this.toolStripButton13.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton13.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton13.Text = "Move last";
-            // 
-            // toolStripSeparator6
-            // 
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripButton14
-            // 
-            this.toolStripButton14.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton14.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton14.Image")));
-            this.toolStripButton14.Name = "toolStripButton14";
-            this.toolStripButton14.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton14.Text = "Save Data";
-            this.toolStripButton14.Click += new System.EventHandler(this.toolStripButton14_Click_1);
-            // 
-            // thongtinnhanvienGridControl
-            // 
-            this.thongtinnhanvienGridControl.DataSource = this.thongtinnhanvienBindingSource;
-            this.thongtinnhanvienGridControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.thongtinnhanvienGridControl.Location = new System.Drawing.Point(0, 0);
-            this.thongtinnhanvienGridControl.MainView = this.gridView3;
-            this.thongtinnhanvienGridControl.MenuManager = this.ribbonControl1;
-            this.thongtinnhanvienGridControl.Name = "thongtinnhanvienGridControl";
-            this.thongtinnhanvienGridControl.Size = new System.Drawing.Size(792, 242);
-            this.thongtinnhanvienGridControl.TabIndex = 0;
-            this.thongtinnhanvienGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView3});
-            // 
-            // gridView3
-            // 
-            this.gridView3.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.colMaso2,
-            this.colGioitinh,
-            this.colNgaysinh,
-            this.colNoisinh,
-            this.colChuyennganh,
-            this.colTrinhdo});
-            this.gridView3.GridControl = this.thongtinnhanvienGridControl;
-            this.gridView3.Name = "gridView3";
-            this.gridView3.ViewCaption = "Manager";
-            // 
-            // colMaso2
-            // 
-            this.colMaso2.Caption = "Mã số nhân viên";
-            this.colMaso2.FieldName = "Maso";
-            this.colMaso2.Name = "colMaso2";
-            this.colMaso2.Visible = true;
-            this.colMaso2.VisibleIndex = 0;
-            // 
-            // colGioitinh
-            // 
-            this.colGioitinh.Caption = "Giới tính";
-            this.colGioitinh.FieldName = "Gioitinh";
-            this.colGioitinh.Name = "colGioitinh";
-            this.colGioitinh.Visible = true;
-            this.colGioitinh.VisibleIndex = 1;
-            // 
-            // colNgaysinh
-            // 
-            this.colNgaysinh.Caption = "Ngày sinh";
-            this.colNgaysinh.FieldName = "Ngaysinh";
-            this.colNgaysinh.Name = "colNgaysinh";
-            this.colNgaysinh.Visible = true;
-            this.colNgaysinh.VisibleIndex = 2;
-            // 
-            // colNoisinh
-            // 
-            this.colNoisinh.Caption = "Nơi sinh";
-            this.colNoisinh.FieldName = "Noisinh";
-            this.colNoisinh.Name = "colNoisinh";
-            this.colNoisinh.Visible = true;
-            this.colNoisinh.VisibleIndex = 3;
-            // 
-            // colChuyennganh
-            // 
-            this.colChuyennganh.Caption = "Chuyên ngành";
-            this.colChuyennganh.FieldName = "Chuyennganh";
-            this.colChuyennganh.Name = "colChuyennganh";
-            this.colChuyennganh.Visible = true;
-            this.colChuyennganh.VisibleIndex = 4;
-            // 
-            // colTrinhdo
-            // 
-            this.colTrinhdo.Caption = "Trình độ văn hoá";
-            this.colTrinhdo.FieldName = "Trinhdo";
-            this.colTrinhdo.Name = "colTrinhdo";
-            this.colTrinhdo.Visible = true;
-            this.colTrinhdo.VisibleIndex = 5;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.AutoScroll = true;
-            this.tabPage1.Controls.Add(this.danhsachnhanvienBindingNavigator);
-            this.tabPage1.Controls.Add(this.danhsachnhanvienGridControl);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(792, 242);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Danh sách nhân viên";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // danhsachnhanvienBindingNavigator
-            // 
-            this.danhsachnhanvienBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.danhsachnhanvienBindingNavigator.BindingSource = this.danhsachnhanvienBindingSource;
-            this.danhsachnhanvienBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.danhsachnhanvienBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.danhsachnhanvienBindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
-            this.danhsachnhanvienBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bindingNavigatorMoveFirstItem,
-            this.bindingNavigatorMovePreviousItem,
-            this.bindingNavigatorSeparator,
-            this.bindingNavigatorPositionItem,
-            this.bindingNavigatorCountItem,
-            this.bindingNavigatorSeparator1,
-            this.bindingNavigatorMoveNextItem,
-            this.bindingNavigatorMoveLastItem,
-            this.bindingNavigatorSeparator2,
-            this.bindingNavigatorAddNewItem,
-            this.bindingNavigatorDeleteItem,
-            this.danhsachnhanvienBindingNavigatorSaveItem});
-            this.danhsachnhanvienBindingNavigator.Location = new System.Drawing.Point(5, 13);
-            this.danhsachnhanvienBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.danhsachnhanvienBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.danhsachnhanvienBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.danhsachnhanvienBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.danhsachnhanvienBindingNavigator.Name = "danhsachnhanvienBindingNavigator";
-            this.danhsachnhanvienBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.danhsachnhanvienBindingNavigator.Size = new System.Drawing.Size(278, 25);
-            this.danhsachnhanvienBindingNavigator.TabIndex = 3;
-            this.danhsachnhanvienBindingNavigator.Text = "bindingNavigator1";
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
-            // 
-            // bindingNavigatorMoveFirstItem
-            // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
-            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveFirstItem.Text = "Move first";
-            this.bindingNavigatorMoveFirstItem.Click += new System.EventHandler(this.bindingNavigatorMoveFirstItem_Click);
-            // 
-            // bindingNavigatorMovePreviousItem
-            // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
-            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMovePreviousItem.Text = "Move previous";
-            // 
-            // bindingNavigatorSeparator
-            // 
-            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorPositionItem
-            // 
-            this.bindingNavigatorPositionItem.AccessibleName = "Position";
-            this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
-            this.bindingNavigatorPositionItem.Text = "0";
-            this.bindingNavigatorPositionItem.ToolTipText = "Current position";
-            // 
-            // bindingNavigatorSeparator1
-            // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorMoveNextItem
-            // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
-            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveNextItem.Text = "Move next";
-            // 
-            // bindingNavigatorMoveLastItem
-            // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
-            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveLastItem.Text = "Move last";
-            // 
-            // bindingNavigatorSeparator2
-            // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // danhsachnhanvienBindingNavigatorSaveItem
-            // 
-            this.danhsachnhanvienBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.danhsachnhanvienBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("danhsachnhanvienBindingNavigatorSaveItem.Image")));
-            this.danhsachnhanvienBindingNavigatorSaveItem.Name = "danhsachnhanvienBindingNavigatorSaveItem";
-            this.danhsachnhanvienBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
-            this.danhsachnhanvienBindingNavigatorSaveItem.Text = "Save Data";
-            this.danhsachnhanvienBindingNavigatorSaveItem.Click += new System.EventHandler(this.danhsachnhanvienBindingNavigatorSaveItem_Click);
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Location = new System.Drawing.Point(0, 158);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(800, 268);
-            this.tabControl1.TabIndex = 2;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.AutoScroll = true;
-            this.tabPage2.Controls.Add(this.bindingNavigator1);
-            this.tabPage2.Controls.Add(this.thongtincongviecGridControl);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(792, 242);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Thông tin công việc";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // bindingNavigator1
-            // 
-            this.bindingNavigator1.AccessibleName = "New item selection";
-            this.bindingNavigator1.AccessibleRole = System.Windows.Forms.AccessibleRole.ButtonDropDown;
-            this.bindingNavigator1.AddNewItem = null;
-            this.bindingNavigator1.AutoSize = false;
-            this.bindingNavigator1.CanOverflow = false;
-            this.bindingNavigator1.CountItem = null;
-            this.bindingNavigator1.DeleteItem = null;
-            this.bindingNavigator1.Dock = System.Windows.Forms.DockStyle.None;
-            this.bindingNavigator1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            this.bindingNavigator1.Location = new System.Drawing.Point(0, 0);
-            this.bindingNavigator1.MoveFirstItem = null;
-            this.bindingNavigator1.MoveLastItem = null;
-            this.bindingNavigator1.MoveNextItem = null;
-            this.bindingNavigator1.MovePreviousItem = null;
-            this.bindingNavigator1.Name = "bindingNavigator1";
-            this.bindingNavigator1.PositionItem = null;
-            this.bindingNavigator1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bindingNavigator1.Size = new System.Drawing.Size(31, 19);
-            this.bindingNavigator1.TabIndex = 0;
-            this.bindingNavigator1.TabStop = true;
-            this.bindingNavigator1.Visible = false;
-            // 
-            // thongtincongviecGridControl
-            // 
-            this.thongtincongviecGridControl.DataSource = this.thongtincongviecBindingSource;
-            this.thongtincongviecGridControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.thongtincongviecGridControl.Location = new System.Drawing.Point(3, 3);
-            this.thongtincongviecGridControl.MainView = this.gridView2;
-            this.thongtincongviecGridControl.MenuManager = this.ribbonControl1;
-            this.thongtincongviecGridControl.Name = "thongtincongviecGridControl";
-            this.thongtincongviecGridControl.Size = new System.Drawing.Size(786, 236);
-            this.thongtincongviecGridControl.TabIndex = 0;
-            this.thongtincongviecGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView2,
-            this.gridView5,
-            this.gridView7});
-            // 
-            // gridView2
-            // 
-            this.gridView2.GridControl = this.thongtincongviecGridControl;
-            this.gridView2.Name = "gridView2";
-            // 
-            // gridView5
-            // 
-            this.gridView5.GridControl = this.thongtincongviecGridControl;
-            this.gridView5.Name = "gridView5";
-            // 
-            // gridView7
-            // 
-            this.gridView7.GridControl = this.thongtincongviecGridControl;
-            this.gridView7.Name = "gridView7";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Gainsboro;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(580, 66);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(208, 76);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // ribbonPage5
             // 
@@ -1044,6 +580,713 @@
             this.toolStripButton7.Text = "Save Data";
             this.toolStripButton7.Click += new System.EventHandler(this.toolStripButton7_Click);
             // 
+            // ribbonPage4
+            // 
+            this.ribbonPage4.Name = "ribbonPage4";
+            this.ribbonPage4.Text = "ribbonPage4";
+            // 
+            // ribbonPageCategory1
+            // 
+            this.ribbonPageCategory1.Name = "ribbonPageCategory1";
+            this.ribbonPageCategory1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
+            this.ribbonPage4});
+            this.ribbonPageCategory1.Text = "ribbonPageCategory1";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.BackColor = System.Drawing.Color.Gainsboro;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(556, 76);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(208, 76);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.AutoScroll = true;
+            this.tabPage2.Controls.Add(this.bindingNavigator1);
+            this.tabPage2.Controls.Add(this.thongtincongviecGridControl);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(792, 242);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Thông tin công việc";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // bindingNavigator1
+            // 
+            this.bindingNavigator1.AddNewItem = this.toolStripButton15;
+            this.bindingNavigator1.BindingSource = this.thongtincongviecBindingSource;
+            this.bindingNavigator1.CountItem = this.toolStripLabel3;
+            this.bindingNavigator1.DeleteItem = this.toolStripButton16;
+            this.bindingNavigator1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.bindingNavigator1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton17,
+            this.toolStripButton18,
+            this.toolStripSeparator7,
+            this.toolStripTextBox3,
+            this.toolStripLabel3,
+            this.toolStripSeparator8,
+            this.toolStripButton19,
+            this.toolStripButton20,
+            this.toolStripSeparator9,
+            this.toolStripButton15,
+            this.toolStripButton16,
+            this.toolStripButton21});
+            this.bindingNavigator1.Location = new System.Drawing.Point(3, 214);
+            this.bindingNavigator1.MoveFirstItem = this.toolStripButton17;
+            this.bindingNavigator1.MoveLastItem = this.toolStripButton20;
+            this.bindingNavigator1.MoveNextItem = this.toolStripButton19;
+            this.bindingNavigator1.MovePreviousItem = this.toolStripButton18;
+            this.bindingNavigator1.Name = "bindingNavigator1";
+            this.bindingNavigator1.PositionItem = this.toolStripTextBox3;
+            this.bindingNavigator1.Size = new System.Drawing.Size(786, 25);
+            this.bindingNavigator1.TabIndex = 5;
+            this.bindingNavigator1.Text = "bindingNavigator1";
+            this.bindingNavigator1.RefreshItems += new System.EventHandler(this.bindingNavigator1_RefreshItems_1);
+            // 
+            // toolStripButton15
+            // 
+            this.toolStripButton15.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton15.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton15.Image")));
+            this.toolStripButton15.Name = "toolStripButton15";
+            this.toolStripButton15.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton15.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton15.Text = "Add new";
+            // 
+            // toolStripLabel3
+            // 
+            this.toolStripLabel3.Name = "toolStripLabel3";
+            this.toolStripLabel3.Size = new System.Drawing.Size(35, 22);
+            this.toolStripLabel3.Text = "of {0}";
+            this.toolStripLabel3.ToolTipText = "Total number of items";
+            // 
+            // toolStripButton16
+            // 
+            this.toolStripButton16.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton16.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton16.Image")));
+            this.toolStripButton16.Name = "toolStripButton16";
+            this.toolStripButton16.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton16.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton16.Text = "Delete";
+            // 
+            // toolStripButton17
+            // 
+            this.toolStripButton17.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton17.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton17.Image")));
+            this.toolStripButton17.Name = "toolStripButton17";
+            this.toolStripButton17.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton17.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton17.Text = "Move first";
+            // 
+            // toolStripButton18
+            // 
+            this.toolStripButton18.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton18.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton18.Image")));
+            this.toolStripButton18.Name = "toolStripButton18";
+            this.toolStripButton18.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton18.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton18.Text = "Move previous";
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripTextBox3
+            // 
+            this.toolStripTextBox3.AccessibleName = "Position";
+            this.toolStripTextBox3.AutoSize = false;
+            this.toolStripTextBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripTextBox3.Name = "toolStripTextBox3";
+            this.toolStripTextBox3.Size = new System.Drawing.Size(50, 23);
+            this.toolStripTextBox3.Text = "0";
+            this.toolStripTextBox3.ToolTipText = "Current position";
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton19
+            // 
+            this.toolStripButton19.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton19.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton19.Image")));
+            this.toolStripButton19.Name = "toolStripButton19";
+            this.toolStripButton19.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton19.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton19.Text = "Move next";
+            // 
+            // toolStripButton20
+            // 
+            this.toolStripButton20.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton20.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton20.Image")));
+            this.toolStripButton20.Name = "toolStripButton20";
+            this.toolStripButton20.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton20.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton20.Text = "Move last";
+            // 
+            // toolStripSeparator9
+            // 
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton21
+            // 
+            this.toolStripButton21.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton21.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton21.Image")));
+            this.toolStripButton21.Name = "toolStripButton21";
+            this.toolStripButton21.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton21.Text = "Save Data";
+            this.toolStripButton21.Click += new System.EventHandler(this.toolStripButton21_Click);
+            // 
+            // thongtincongviecGridControl
+            // 
+            this.thongtincongviecGridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.thongtincongviecGridControl.DataSource = this.thongtincongviecBindingSource;
+            this.thongtincongviecGridControl.Location = new System.Drawing.Point(3, 3);
+            this.thongtincongviecGridControl.MainView = this.gridView2;
+            this.thongtincongviecGridControl.MenuManager = this.ribbonControl1;
+            this.thongtincongviecGridControl.Name = "thongtincongviecGridControl";
+            this.thongtincongviecGridControl.Size = new System.Drawing.Size(789, 214);
+            this.thongtincongviecGridControl.TabIndex = 0;
+            this.thongtincongviecGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView2,
+            this.gridView5,
+            this.gridView7});
+            // 
+            // gridView2
+            // 
+            this.gridView2.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colMaso3,
+            this.colNgaythuviec1,
+            this.colNgayhopdong1,
+            this.colTrangthai1,
+            this.colVitri1,
+            this.colNoilamviec1,
+            this.colLoaiHopdong1});
+            this.gridView2.GridControl = this.thongtincongviecGridControl;
+            this.gridView2.Name = "gridView2";
+            // 
+            // colMaso3
+            // 
+            this.colMaso3.FieldName = "Maso";
+            this.colMaso3.Name = "colMaso3";
+            this.colMaso3.Visible = true;
+            this.colMaso3.VisibleIndex = 0;
+            // 
+            // colNgaythuviec1
+            // 
+            this.colNgaythuviec1.FieldName = "Ngaythuviec";
+            this.colNgaythuviec1.Name = "colNgaythuviec1";
+            this.colNgaythuviec1.Visible = true;
+            this.colNgaythuviec1.VisibleIndex = 1;
+            // 
+            // colNgayhopdong1
+            // 
+            this.colNgayhopdong1.FieldName = "Ngayhopdong";
+            this.colNgayhopdong1.Name = "colNgayhopdong1";
+            this.colNgayhopdong1.Visible = true;
+            this.colNgayhopdong1.VisibleIndex = 2;
+            // 
+            // colTrangthai1
+            // 
+            this.colTrangthai1.FieldName = "Trangthai";
+            this.colTrangthai1.Name = "colTrangthai1";
+            this.colTrangthai1.Visible = true;
+            this.colTrangthai1.VisibleIndex = 3;
+            // 
+            // colVitri1
+            // 
+            this.colVitri1.FieldName = "Vitri";
+            this.colVitri1.Name = "colVitri1";
+            this.colVitri1.Visible = true;
+            this.colVitri1.VisibleIndex = 4;
+            // 
+            // colNoilamviec1
+            // 
+            this.colNoilamviec1.FieldName = "Noilamviec";
+            this.colNoilamviec1.Name = "colNoilamviec1";
+            this.colNoilamviec1.Visible = true;
+            this.colNoilamviec1.VisibleIndex = 5;
+            // 
+            // colLoaiHopdong1
+            // 
+            this.colLoaiHopdong1.FieldName = "LoaiHopdong";
+            this.colLoaiHopdong1.Name = "colLoaiHopdong1";
+            this.colLoaiHopdong1.Visible = true;
+            this.colLoaiHopdong1.VisibleIndex = 6;
+            // 
+            // gridView5
+            // 
+            this.gridView5.GridControl = this.thongtincongviecGridControl;
+            this.gridView5.Name = "gridView5";
+            // 
+            // gridView7
+            // 
+            this.gridView7.GridControl = this.thongtincongviecGridControl;
+            this.gridView7.Name = "gridView7";
+            // 
+            // gridView1
+            // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colMaso,
+            this.colSTT,
+            this.colHoten,
+            this.colGhichu});
+            this.gridView1.GridControl = this.danhsachnhanvienGridControl;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
+            new DevExpress.XtraGrid.Columns.GridColumnSortInfo(this.colSTT, DevExpress.Data.ColumnSortOrder.Ascending)});
+            // 
+            // colMaso
+            // 
+            this.colMaso.Caption = "Mã số nhân viên";
+            this.colMaso.FieldName = "Maso";
+            this.colMaso.Name = "colMaso";
+            this.colMaso.Visible = true;
+            this.colMaso.VisibleIndex = 0;
+            this.colMaso.Width = 94;
+            // 
+            // colSTT
+            // 
+            this.colSTT.Caption = "Số thứ tự";
+            this.colSTT.FieldName = "STT";
+            this.colSTT.Name = "colSTT";
+            this.colSTT.Visible = true;
+            this.colSTT.VisibleIndex = 1;
+            this.colSTT.Width = 59;
+            // 
+            // colHoten
+            // 
+            this.colHoten.Caption = "Họ và Tên";
+            this.colHoten.FieldName = "Hoten";
+            this.colHoten.Name = "colHoten";
+            this.colHoten.Visible = true;
+            this.colHoten.VisibleIndex = 2;
+            this.colHoten.Width = 350;
+            // 
+            // colGhichu
+            // 
+            this.colGhichu.Caption = "Ghi chú";
+            this.colGhichu.FieldName = "Ghichu";
+            this.colGhichu.Name = "colGhichu";
+            this.colGhichu.Visible = true;
+            this.colGhichu.VisibleIndex = 3;
+            this.colGhichu.Width = 165;
+            // 
+            // danhsachnhanvienGridControl
+            // 
+            this.danhsachnhanvienGridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.danhsachnhanvienGridControl.DataSource = this.danhsachnhanvienBindingSource;
+            gridLevelNode2.RelationName = "Level1";
+            this.danhsachnhanvienGridControl.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
+            gridLevelNode2});
+            this.danhsachnhanvienGridControl.Location = new System.Drawing.Point(3, 3);
+            this.danhsachnhanvienGridControl.MainView = this.gridView1;
+            this.danhsachnhanvienGridControl.MenuManager = this.ribbonControl1;
+            this.danhsachnhanvienGridControl.Name = "danhsachnhanvienGridControl";
+            this.danhsachnhanvienGridControl.Size = new System.Drawing.Size(786, 206);
+            this.danhsachnhanvienGridControl.TabIndex = 0;
+            this.danhsachnhanvienGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1,
+            this.gridView8,
+            this.gridView6,
+            this.gridView4});
+            this.danhsachnhanvienGridControl.Click += new System.EventHandler(this.danhsachnhanvienGridControl_Click);
+            // 
+            // gridView8
+            // 
+            this.gridView8.GridControl = this.danhsachnhanvienGridControl;
+            this.gridView8.Name = "gridView8";
+            // 
+            // gridView6
+            // 
+            this.gridView6.GridControl = this.danhsachnhanvienGridControl;
+            this.gridView6.Name = "gridView6";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.AutoScroll = true;
+            this.tabPage3.Controls.Add(this.bindingNavigator2);
+            this.tabPage3.Controls.Add(this.thongtinnhanvienGridControl);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(792, 242);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Thông tin nhân viên";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // bindingNavigator2
+            // 
+            this.bindingNavigator2.AddNewItem = this.toolStripButton8;
+            this.bindingNavigator2.BindingSource = this.thongtinnhanvienBindingSource;
+            this.bindingNavigator2.CountItem = this.toolStripLabel2;
+            this.bindingNavigator2.DeleteItem = this.toolStripButton9;
+            this.bindingNavigator2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.bindingNavigator2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton10,
+            this.toolStripButton11,
+            this.toolStripSeparator4,
+            this.toolStripTextBox2,
+            this.toolStripLabel2,
+            this.toolStripSeparator5,
+            this.toolStripButton12,
+            this.toolStripButton13,
+            this.toolStripSeparator6,
+            this.toolStripButton8,
+            this.toolStripButton9,
+            this.toolStripButton14});
+            this.bindingNavigator2.Location = new System.Drawing.Point(0, 217);
+            this.bindingNavigator2.MoveFirstItem = this.toolStripButton10;
+            this.bindingNavigator2.MoveLastItem = this.toolStripButton13;
+            this.bindingNavigator2.MoveNextItem = this.toolStripButton12;
+            this.bindingNavigator2.MovePreviousItem = this.toolStripButton11;
+            this.bindingNavigator2.Name = "bindingNavigator2";
+            this.bindingNavigator2.PositionItem = this.toolStripTextBox2;
+            this.bindingNavigator2.Size = new System.Drawing.Size(792, 25);
+            this.bindingNavigator2.TabIndex = 4;
+            this.bindingNavigator2.Text = "bindingNavigator1";
+            // 
+            // toolStripButton8
+            // 
+            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
+            this.toolStripButton8.Name = "toolStripButton8";
+            this.toolStripButton8.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton8.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton8.Text = "Add new";
+            // 
+            // toolStripLabel2
+            // 
+            this.toolStripLabel2.Name = "toolStripLabel2";
+            this.toolStripLabel2.Size = new System.Drawing.Size(35, 22);
+            this.toolStripLabel2.Text = "of {0}";
+            this.toolStripLabel2.ToolTipText = "Total number of items";
+            // 
+            // toolStripButton9
+            // 
+            this.toolStripButton9.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton9.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton9.Image")));
+            this.toolStripButton9.Name = "toolStripButton9";
+            this.toolStripButton9.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton9.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton9.Text = "Delete";
+            // 
+            // toolStripButton10
+            // 
+            this.toolStripButton10.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton10.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton10.Image")));
+            this.toolStripButton10.Name = "toolStripButton10";
+            this.toolStripButton10.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton10.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton10.Text = "Move first";
+            // 
+            // toolStripButton11
+            // 
+            this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton11.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton11.Image")));
+            this.toolStripButton11.Name = "toolStripButton11";
+            this.toolStripButton11.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton11.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton11.Text = "Move previous";
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripTextBox2
+            // 
+            this.toolStripTextBox2.AccessibleName = "Position";
+            this.toolStripTextBox2.AutoSize = false;
+            this.toolStripTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripTextBox2.Name = "toolStripTextBox2";
+            this.toolStripTextBox2.Size = new System.Drawing.Size(50, 23);
+            this.toolStripTextBox2.Text = "0";
+            this.toolStripTextBox2.ToolTipText = "Current position";
+            this.toolStripTextBox2.Click += new System.EventHandler(this.toolStripTextBox2_Click);
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton12
+            // 
+            this.toolStripButton12.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton12.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton12.Image")));
+            this.toolStripButton12.Name = "toolStripButton12";
+            this.toolStripButton12.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton12.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton12.Text = "Move next";
+            // 
+            // toolStripButton13
+            // 
+            this.toolStripButton13.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton13.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton13.Image")));
+            this.toolStripButton13.Name = "toolStripButton13";
+            this.toolStripButton13.RightToLeftAutoMirrorImage = true;
+            this.toolStripButton13.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton13.Text = "Move last";
+            // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton14
+            // 
+            this.toolStripButton14.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton14.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton14.Image")));
+            this.toolStripButton14.Name = "toolStripButton14";
+            this.toolStripButton14.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton14.Text = "Save Data";
+            this.toolStripButton14.Click += new System.EventHandler(this.toolStripButton14_Click_1);
+            // 
+            // thongtinnhanvienGridControl
+            // 
+            this.thongtinnhanvienGridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.thongtinnhanvienGridControl.DataSource = this.thongtinnhanvienBindingSource;
+            this.thongtinnhanvienGridControl.Location = new System.Drawing.Point(0, 0);
+            this.thongtinnhanvienGridControl.MainView = this.gridView3;
+            this.thongtinnhanvienGridControl.MenuManager = this.ribbonControl1;
+            this.thongtinnhanvienGridControl.Name = "thongtinnhanvienGridControl";
+            this.thongtinnhanvienGridControl.Size = new System.Drawing.Size(792, 217);
+            this.thongtinnhanvienGridControl.TabIndex = 0;
+            this.thongtinnhanvienGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView3});
+            // 
+            // gridView3
+            // 
+            this.gridView3.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colMaso2,
+            this.colGioitinh,
+            this.colNgaysinh,
+            this.colNoisinh,
+            this.colChuyennganh,
+            this.colTrinhdo});
+            this.gridView3.GridControl = this.thongtinnhanvienGridControl;
+            this.gridView3.Name = "gridView3";
+            this.gridView3.ViewCaption = "Manager";
+            // 
+            // colMaso2
+            // 
+            this.colMaso2.Caption = "Mã số nhân viên";
+            this.colMaso2.FieldName = "Maso";
+            this.colMaso2.Name = "colMaso2";
+            this.colMaso2.Visible = true;
+            this.colMaso2.VisibleIndex = 0;
+            // 
+            // colGioitinh
+            // 
+            this.colGioitinh.Caption = "Giới tính";
+            this.colGioitinh.FieldName = "Gioitinh";
+            this.colGioitinh.Name = "colGioitinh";
+            this.colGioitinh.Visible = true;
+            this.colGioitinh.VisibleIndex = 1;
+            // 
+            // colNgaysinh
+            // 
+            this.colNgaysinh.Caption = "Ngày sinh";
+            this.colNgaysinh.FieldName = "Ngaysinh";
+            this.colNgaysinh.Name = "colNgaysinh";
+            this.colNgaysinh.Visible = true;
+            this.colNgaysinh.VisibleIndex = 2;
+            // 
+            // colNoisinh
+            // 
+            this.colNoisinh.Caption = "Nơi sinh";
+            this.colNoisinh.FieldName = "Noisinh";
+            this.colNoisinh.Name = "colNoisinh";
+            this.colNoisinh.Visible = true;
+            this.colNoisinh.VisibleIndex = 3;
+            // 
+            // colChuyennganh
+            // 
+            this.colChuyennganh.Caption = "Chuyên ngành";
+            this.colChuyennganh.FieldName = "Chuyennganh";
+            this.colChuyennganh.Name = "colChuyennganh";
+            this.colChuyennganh.Visible = true;
+            this.colChuyennganh.VisibleIndex = 4;
+            // 
+            // colTrinhdo
+            // 
+            this.colTrinhdo.Caption = "Trình độ văn hoá";
+            this.colTrinhdo.FieldName = "Trinhdo";
+            this.colTrinhdo.Name = "colTrinhdo";
+            this.colTrinhdo.Visible = true;
+            this.colTrinhdo.VisibleIndex = 5;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.AutoScroll = true;
+            this.tabPage1.Controls.Add(this.danhsachnhanvienBindingNavigator);
+            this.tabPage1.Controls.Add(this.danhsachnhanvienGridControl);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(792, 242);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Danh sách nhân viên";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // danhsachnhanvienBindingNavigator
+            // 
+            this.danhsachnhanvienBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.danhsachnhanvienBindingNavigator.BindingSource = this.danhsachnhanvienBindingSource;
+            this.danhsachnhanvienBindingNavigator.CountItem = this.bindingNavigatorCountItem;
+            this.danhsachnhanvienBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.danhsachnhanvienBindingNavigator.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.danhsachnhanvienBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bindingNavigatorMoveFirstItem,
+            this.bindingNavigatorMovePreviousItem,
+            this.bindingNavigatorSeparator,
+            this.bindingNavigatorPositionItem,
+            this.bindingNavigatorCountItem,
+            this.bindingNavigatorSeparator1,
+            this.bindingNavigatorMoveNextItem,
+            this.bindingNavigatorMoveLastItem,
+            this.bindingNavigatorSeparator2,
+            this.bindingNavigatorAddNewItem,
+            this.bindingNavigatorDeleteItem,
+            this.danhsachnhanvienBindingNavigatorSaveItem});
+            this.danhsachnhanvienBindingNavigator.Location = new System.Drawing.Point(3, 214);
+            this.danhsachnhanvienBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.danhsachnhanvienBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.danhsachnhanvienBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.danhsachnhanvienBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.danhsachnhanvienBindingNavigator.Name = "danhsachnhanvienBindingNavigator";
+            this.danhsachnhanvienBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
+            this.danhsachnhanvienBindingNavigator.Size = new System.Drawing.Size(786, 25);
+            this.danhsachnhanvienBindingNavigator.TabIndex = 3;
+            this.danhsachnhanvienBindingNavigator.Text = "bindingNavigator1";
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Text = "of {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Delete";
+            // 
+            // bindingNavigatorMoveFirstItem
+            // 
+            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
+            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
+            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveFirstItem.Text = "Move first";
+            this.bindingNavigatorMoveFirstItem.Click += new System.EventHandler(this.bindingNavigatorMoveFirstItem_Click);
+            // 
+            // bindingNavigatorMovePreviousItem
+            // 
+            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
+            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
+            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMovePreviousItem.Text = "Move previous";
+            // 
+            // bindingNavigatorSeparator
+            // 
+            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 25);
+            // 
+            // bindingNavigatorPositionItem
+            // 
+            this.bindingNavigatorPositionItem.AccessibleName = "Position";
+            this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
+            this.bindingNavigatorPositionItem.Text = "0";
+            this.bindingNavigatorPositionItem.ToolTipText = "Current position";
+            // 
+            // bindingNavigatorSeparator1
+            // 
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // bindingNavigatorMoveNextItem
+            // 
+            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
+            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
+            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveNextItem.Text = "Move next";
+            // 
+            // bindingNavigatorMoveLastItem
+            // 
+            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
+            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
+            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorMoveLastItem.Text = "Move last";
+            // 
+            // bindingNavigatorSeparator2
+            // 
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // danhsachnhanvienBindingNavigatorSaveItem
+            // 
+            this.danhsachnhanvienBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.danhsachnhanvienBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("danhsachnhanvienBindingNavigatorSaveItem.Image")));
+            this.danhsachnhanvienBindingNavigatorSaveItem.Name = "danhsachnhanvienBindingNavigatorSaveItem";
+            this.danhsachnhanvienBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
+            this.danhsachnhanvienBindingNavigatorSaveItem.Text = "Save Data";
+            this.danhsachnhanvienBindingNavigatorSaveItem.Click += new System.EventHandler(this.danhsachnhanvienBindingNavigatorSaveItem_Click);
+            // 
+            // gridView4
+            // 
+            this.gridView4.GridControl = this.danhsachnhanvienGridControl;
+            this.gridView4.Name = "gridView4";
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.CausesValidation = false;
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Location = new System.Drawing.Point(0, 158);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(800, 268);
+            this.tabControl1.TabIndex = 2;
+            // 
             // GUIchinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1065,10 +1308,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.thongtincongviecBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.thongtinnhanvienBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.miniToolStrip)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.danhsachnhanvienGridControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dsnv_dbDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
+            this.bindingNavigator1.ResumeLayout(false);
+            this.bindingNavigator1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.thongtincongviecGridControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.danhsachnhanvienGridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView6)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator2)).EndInit();
@@ -1081,15 +1335,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.danhsachnhanvienBindingNavigator)).EndInit();
             this.danhsachnhanvienBindingNavigator.ResumeLayout(false);
             this.danhsachnhanvienBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView4)).EndInit();
             this.tabControl1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.thongtincongviecGridControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dsnv_dbDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1111,55 +1358,9 @@
         private System.Windows.Forms.BindingSource thongtinnhanvienBindingSource;
         private dsnv_dbDataSetTableAdapters.ThongtinnhanvienTableAdapter thongtinnhanvienTableAdapter;
         private System.Windows.Forms.BindingNavigator miniToolStrip;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView6;
-        private DevExpress.XtraGrid.GridControl danhsachnhanvienGridControl;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.BindingNavigator bindingNavigator2;
-        private System.Windows.Forms.ToolStripButton toolStripButton8;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel2;
-        private System.Windows.Forms.ToolStripButton toolStripButton9;
-        private System.Windows.Forms.ToolStripButton toolStripButton10;
-        private System.Windows.Forms.ToolStripButton toolStripButton11;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-        private System.Windows.Forms.ToolStripTextBox toolStripTextBox2;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripButton toolStripButton12;
-        private System.Windows.Forms.ToolStripButton toolStripButton13;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
-        private System.Windows.Forms.ToolStripButton toolStripButton14;
-        private DevExpress.XtraGrid.GridControl thongtinnhanvienGridControl;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView3;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.BindingNavigator danhsachnhanvienBindingNavigator;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
-        private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
-        private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.ToolStripButton danhsachnhanvienBindingNavigatorSaveItem;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView8;
-        private System.Windows.Forms.TabControl tabControl1;
-        private DevExpress.XtraGrid.Columns.GridColumn colMaso;
-        private DevExpress.XtraGrid.Columns.GridColumn colSTT;
-        private DevExpress.XtraGrid.Columns.GridColumn colHoten;
-        private DevExpress.XtraGrid.Columns.GridColumn colGhichu;
-        private DevExpress.XtraGrid.Columns.GridColumn colMaso2;
-        private DevExpress.XtraGrid.Columns.GridColumn colGioitinh;
-        private DevExpress.XtraGrid.Columns.GridColumn colNgaysinh;
-        private DevExpress.XtraGrid.Columns.GridColumn colNoisinh;
-        private DevExpress.XtraGrid.Columns.GridColumn colChuyennganh;
-        private DevExpress.XtraGrid.Columns.GridColumn colTrinhdo;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem2;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private DevExpress.XtraBars.BarButtonItem RefreshButton;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem3;
@@ -1171,12 +1372,6 @@
         private DevExpress.XtraBars.BarButtonItem DoiTen;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup6;
         private dsnv_dbDataSet dsnv_dbDataSet1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.BindingNavigator bindingNavigator1;
-        private DevExpress.XtraGrid.GridControl thongtincongviecGridControl;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView5;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView7;
         private DevExpress.XtraGrid.Columns.GridColumn colMaso1;
         private DevExpress.XtraGrid.Columns.GridColumn colNgaythuviec;
         private DevExpress.XtraGrid.Columns.GridColumn colNgayhopdong;
@@ -1196,5 +1391,83 @@
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ToolStripButton toolStripButton2;
         private System.Windows.Forms.ToolStripButton toolStripButton7;
+        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage4;
+        private DevExpress.XtraBars.Ribbon.RibbonPageCategory ribbonPageCategory1;
+        private DevExpress.XtraBars.RibbonGalleryBarItem ribbonGalleryBarItem1;
+        private DevExpress.XtraBars.SkinPaletteRibbonGalleryBarItem skinPaletteRibbonGalleryBarItem1;
+        private DevExpress.XtraBars.BarStaticItem barStaticItem1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem4;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.BindingNavigator bindingNavigator1;
+        private System.Windows.Forms.ToolStripButton toolStripButton15;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel3;
+        private System.Windows.Forms.ToolStripButton toolStripButton16;
+        private System.Windows.Forms.ToolStripButton toolStripButton17;
+        private System.Windows.Forms.ToolStripButton toolStripButton18;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox3;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        private System.Windows.Forms.ToolStripButton toolStripButton19;
+        private System.Windows.Forms.ToolStripButton toolStripButton20;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
+        private System.Windows.Forms.ToolStripButton toolStripButton21;
+        private DevExpress.XtraGrid.GridControl thongtincongviecGridControl;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
+        private DevExpress.XtraGrid.Columns.GridColumn colMaso3;
+        private DevExpress.XtraGrid.Columns.GridColumn colNgaythuviec1;
+        private DevExpress.XtraGrid.Columns.GridColumn colNgayhopdong1;
+        private DevExpress.XtraGrid.Columns.GridColumn colTrangthai1;
+        private DevExpress.XtraGrid.Columns.GridColumn colVitri1;
+        private DevExpress.XtraGrid.Columns.GridColumn colNoilamviec1;
+        private DevExpress.XtraGrid.Columns.GridColumn colLoaiHopdong1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView5;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView7;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Columns.GridColumn colMaso;
+        private DevExpress.XtraGrid.Columns.GridColumn colSTT;
+        private DevExpress.XtraGrid.Columns.GridColumn colHoten;
+        private DevExpress.XtraGrid.Columns.GridColumn colGhichu;
+        private DevExpress.XtraGrid.GridControl danhsachnhanvienGridControl;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView8;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView6;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.BindingNavigator bindingNavigator2;
+        private System.Windows.Forms.ToolStripButton toolStripButton8;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel2;
+        private System.Windows.Forms.ToolStripButton toolStripButton9;
+        private System.Windows.Forms.ToolStripButton toolStripButton10;
+        private System.Windows.Forms.ToolStripButton toolStripButton11;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
+        private System.Windows.Forms.ToolStripTextBox toolStripTextBox2;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripButton toolStripButton12;
+        private System.Windows.Forms.ToolStripButton toolStripButton13;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.ToolStripButton toolStripButton14;
+        private DevExpress.XtraGrid.GridControl thongtinnhanvienGridControl;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView3;
+        private DevExpress.XtraGrid.Columns.GridColumn colMaso2;
+        private DevExpress.XtraGrid.Columns.GridColumn colGioitinh;
+        private DevExpress.XtraGrid.Columns.GridColumn colNgaysinh;
+        private DevExpress.XtraGrid.Columns.GridColumn colNoisinh;
+        private DevExpress.XtraGrid.Columns.GridColumn colChuyennganh;
+        private DevExpress.XtraGrid.Columns.GridColumn colTrinhdo;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.BindingNavigator danhsachnhanvienBindingNavigator;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
+        private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
+        private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
+        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
+        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
+        private System.Windows.Forms.ToolStripButton danhsachnhanvienBindingNavigatorSaveItem;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView4;
+        public System.Windows.Forms.TabControl tabControl1;
     }
 }

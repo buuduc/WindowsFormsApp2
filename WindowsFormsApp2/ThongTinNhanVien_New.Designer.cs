@@ -244,9 +244,9 @@
             trinhdoLabel.Font = new System.Drawing.Font("Tahoma", 12F);
             trinhdoLabel.Location = new System.Drawing.Point(51, 161);
             trinhdoLabel.Name = "trinhdoLabel";
-            trinhdoLabel.Size = new System.Drawing.Size(71, 19);
+            trinhdoLabel.Size = new System.Drawing.Size(81, 19);
             trinhdoLabel.TabIndex = 18;
-            trinhdoLabel.Text = "Trinhdo:";
+            trinhdoLabel.Text = "Trình độ: ";
             // 
             // chuyennganhLabel
             // 
@@ -254,9 +254,9 @@
             chuyennganhLabel.Font = new System.Drawing.Font("Tahoma", 12F);
             chuyennganhLabel.Location = new System.Drawing.Point(51, 135);
             chuyennganhLabel.Name = "chuyennganhLabel";
-            chuyennganhLabel.Size = new System.Drawing.Size(112, 19);
+            chuyennganhLabel.Size = new System.Drawing.Size(122, 19);
             chuyennganhLabel.TabIndex = 16;
-            chuyennganhLabel.Text = "Chuyennganh:";
+            chuyennganhLabel.Text = "Chuyên ngành: ";
             // 
             // vitriLabel
             // 
@@ -264,19 +264,19 @@
             vitriLabel.Font = new System.Drawing.Font("Tahoma", 12F);
             vitriLabel.Location = new System.Drawing.Point(51, 109);
             vitriLabel.Name = "vitriLabel";
-            vitriLabel.Size = new System.Drawing.Size(44, 19);
+            vitriLabel.Size = new System.Drawing.Size(49, 19);
             vitriLabel.TabIndex = 14;
-            vitriLabel.Text = "Vitri:";
+            vitriLabel.Text = "Vị trí:";
             // 
             // trangthaiLabel
             // 
             trangthaiLabel.AutoSize = true;
             trangthaiLabel.Font = new System.Drawing.Font("Tahoma", 12F);
-            trangthaiLabel.Location = new System.Drawing.Point(51, 83);
+            trangthaiLabel.Location = new System.Drawing.Point(16, 35);
             trangthaiLabel.Name = "trangthaiLabel";
-            trangthaiLabel.Size = new System.Drawing.Size(83, 19);
+            trangthaiLabel.Size = new System.Drawing.Size(93, 19);
             trangthaiLabel.TabIndex = 12;
-            trangthaiLabel.Text = "Trangthai:";
+            trangthaiLabel.Text = "Trạng thái: ";
             // 
             // xtraTabControl1
             // 
@@ -426,7 +426,7 @@
             // trangthaiTextEdit
             // 
             this.trangthaiTextEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.congViec_NhanVienBindingSource, "Trangthai", true));
-            this.trangthaiTextEdit.Location = new System.Drawing.Point(180, 80);
+            this.trangthaiTextEdit.Location = new System.Drawing.Point(145, 32);
             this.trangthaiTextEdit.Name = "trangthaiTextEdit";
             this.trangthaiTextEdit.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.trangthaiTextEdit.Properties.Appearance.Options.UseFont = true;
@@ -621,7 +621,6 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -660,7 +659,6 @@
             this.congViec_NhanVienBindingNavigatorSaveItem.Checked = true;
             this.congViec_NhanVienBindingNavigatorSaveItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.congViec_NhanVienBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.congViec_NhanVienBindingNavigatorSaveItem.Enabled = false;
             this.congViec_NhanVienBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("congViec_NhanVienBindingNavigatorSaveItem.Image")));
             this.congViec_NhanVienBindingNavigatorSaveItem.Name = "congViec_NhanVienBindingNavigatorSaveItem";
             this.congViec_NhanVienBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
